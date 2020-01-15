@@ -1,2 +1,2 @@
 # LongNoght2
-Vovan try to make long night 2 game 
+Vovan the great creating cool and atmospheric sequel of legendary game 

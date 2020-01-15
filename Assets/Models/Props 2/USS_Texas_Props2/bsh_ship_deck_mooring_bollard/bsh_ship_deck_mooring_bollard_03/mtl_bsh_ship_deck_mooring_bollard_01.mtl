@@ -1,0 +1,8 @@
+newmtl mtl_bsh_ship_deck_mooring_bollard_01
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Ks 0.50 0.50 0.50
+map_Kd _images\\~&-cmtl_bsh_ship_deck_mooring~1c2e4f7a.dds
+map_bump _images\\~&-nmtl_bsh_ship_deck_mooring~6a4f9bbe.dds
+map_Ks _images\\~&-cmtl_bsh_ship_deck_mooring~fee268fe.dds

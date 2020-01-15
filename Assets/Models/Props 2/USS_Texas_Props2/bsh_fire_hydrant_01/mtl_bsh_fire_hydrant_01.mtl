@@ -1,0 +1,8 @@
+newmtl mtl_bsh_fire_hydrant_01
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Ks 0.50 0.50 0.50
+map_Kd _images\\~&-cbsh_fire_hydrant_01_col&b~846efaec.dds
+map_bump _images\\~&-nbsh_fire_hydrant_01_nml&b~3ab91883.dds
+map_Ks _images\\~&-cbsh_fire_hydrant_01_col&b~8e5dee4f.dds

@@ -1,0 +1,8 @@
+newmtl mtl_bsh_ship_deck_hatch_01
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Ks 0.50 0.50 0.50
+map_Kd _images\\~&-cmtl_bsh_ship_deck_hatch_0~7b90b657.dds
+map_bump _images\\~&-nsub_bsh_ship_deck_hatch_0~2a4b0c8b.dds
+map_Ks _images\\~&-cmtl_bsh_ship_deck_hatch_0~c92680b2.dds

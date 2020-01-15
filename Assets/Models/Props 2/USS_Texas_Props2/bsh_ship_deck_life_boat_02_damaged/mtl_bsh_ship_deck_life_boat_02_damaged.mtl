@@ -1,0 +1,8 @@
+newmtl mtl_bsh_ship_deck_life_boat_02_damaged
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Ks 0.50 0.50 0.50
+map_Kd _images\\~&-csub_bsh_ship_deck_life_bo~c8f1e957.dds
+map_bump _images\\~&-nsub_bsh_ship_deck_life_bo~2a866cfc.dds
+map_Ks _images\\~&-csub_bsh_ship_deck_life_bo~13b18d3b.dds

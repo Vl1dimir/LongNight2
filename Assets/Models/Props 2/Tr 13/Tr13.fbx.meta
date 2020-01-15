@@ -1,0 +1,159 @@
+fileFormatVersion: 2
+guid: 4b7d9e7ddaaf45248a8842cfdba9960f
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: back_axle
+    100002: back_left_wheel
+    100004: back_right_wheel
+    100006: exhausts
+    100008: front_axle
+    100010: front_bamper
+    100012: front_left_wheel
+    100014: front_light
+    100016: front_right_wheel
+    100018: kabina
+    100020: left_door
+    100022: left_door1
+    100024: left_light
+    100026: mesh00
+    100028: mesh01
+    100030: mesh02
+    100032: mesh03
+    100034: mesh04
+    100036: right_door
+    100038: right_light
+    100040: root
+    100042: seat_left
+    100044: stearing_wheel
+    100046: stearing_wheel_left
+    100048: stearing_wheel_right
+    100050: //RootNode
+    400000: back_axle
+    400002: back_left_wheel
+    400004: back_right_wheel
+    400006: exhausts
+    400008: front_axle
+    400010: front_bamper
+    400012: front_left_wheel
+    400014: front_light
+    400016: front_right_wheel
+    400018: kabina
+    400020: left_door
+    400022: left_door1
+    400024: left_light
+    400026: mesh00
+    400028: mesh01
+    400030: mesh02
+    400032: mesh03
+    400034: mesh04
+    400036: right_door
+    400038: right_light
+    400040: root
+    400042: seat_left
+    400044: stearing_wheel
+    400046: stearing_wheel_left
+    400048: stearing_wheel_right
+    400050: //RootNode
+    2100000: material00
+    2100002: material01
+    2100004: material02
+    2100006: material03
+    2100008: material04
+    4300000: mesh00
+    4300002: mesh01
+    4300004: mesh02
+    4300006: mesh03
+    4300008: mesh04
+    9500000: //RootNode
+    13700000: mesh00
+    13700002: mesh01
+    13700004: mesh02
+    13700006: mesh03
+    13700008: mesh04
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,8 @@
+newmtl mtl_bsh_dolly_01
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Ks 0.50 0.50 0.50
+map_Kd _images\\~&-csub_bsh_dolly_01_col&sub_~61eb5727.dds
+map_bump _images\\~&-nsub_bsh_dolly_01_nml&sub_~5ca24131.dds
+map_Ks _images\\~&-csub_bsh_dolly_01_col&sub_~43a25dd9.dds

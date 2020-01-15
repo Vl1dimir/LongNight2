@@ -1,0 +1,8 @@
+newmtl mtl_mi24p_hind_desert_destroy
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Ks 0.50 0.50 0.50
+map_Kd ..\\_images\\mi24p_hind_desert_destroy_col.dds
+map_bump ..\\_images\\mi24p_hind_desert_destroy_nml.dds
+map_Ks ..\\_images\\~mi24p_hind_desert_destroy_sp~e07249e8.dds

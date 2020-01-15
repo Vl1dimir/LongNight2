@@ -1,0 +1,87 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 01.12.2018 10:26:57
+
+newmtl Material_000001
+	Ns 33.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 1.0000 1.0000 1.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka WoodCrate_d.png
+	map_Kd WoodCrate_d.png
+	map_Ks WoodCrate_s2.png
+	map_bump WoodCrate_n.png
+	bump WoodCrate_n.png
+
+newmtl Material_0000dd
+	Ns 33.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 1.0000 1.0000 1.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka WoodCrate_d.png
+	map_Kd WoodCrate_d.png
+	map_Ks WoodCrate_s2.png
+	map_bump WoodCrate_n.png
+	bump WoodCrate_n.png
+
+newmtl Material_0002cb
+	Ns 33.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 1.0000 1.0000 1.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka WoodCrate_d.png
+	map_Kd WoodCrate_d.png
+	map_Ks WoodCrate_s2.png
+	map_bump WoodCrate_n.png
+	bump WoodCrate_n.png
+
+newmtl Material_0003df
+	Ns 33.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 1.0000 1.0000 1.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka WoodCrate_d.png
+	map_Kd WoodCrate_d.png
+	map_Ks WoodCrate_s2.png
+	map_bump WoodCrate_n.png
+	bump WoodCrate_n.png
+
+newmtl Material_0004ab
+	Ns 33.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 1.0000 1.0000 1.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka WoodCrate_d.png
+	map_Kd WoodCrate_d.png
+	map_Ks WoodCrate_s2.png
+	map_bump WoodCrate_n.png
+	bump WoodCrate_n.png

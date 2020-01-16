@@ -110,8 +110,8 @@ NavMeshSettings:
     agentTypeID: 0
     agentRadius: 0.3
     agentHeight: 2
-    agentSlope: 20
-    agentClimb: 0.4
+    agentSlope: 35
+    agentClimb: 0.155
     ledgeDropHeight: 0
     maxJumpAcrossDistance: 0
     minRegionArea: 2
@@ -226,6 +226,10 @@ PrefabInstance:
     - target: {fileID: 248868637, guid: 020eb78efb1f78d43a366e9e74f17e63, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1513028315, guid: 020eb78efb1f78d43a366e9e74f17e63, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 22
       objectReference: {fileID: 0}
     - target: {fileID: 1631528718906086, guid: 020eb78efb1f78d43a366e9e74f17e63, type: 3}
       propertyPath: m_Name
@@ -3930,6 +3934,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1513028315, guid: 020eb78efb1f78d43a366e9e74f17e63, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 22
+      objectReference: {fileID: 0}
     - target: {fileID: 1631528718906086, guid: 020eb78efb1f78d43a366e9e74f17e63, type: 3}
       propertyPath: m_Name
       value: Derrick_NPC (21)
@@ -4156,6 +4164,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 695378283}
     m_Modifications:
+    - target: {fileID: 1513028315, guid: 020eb78efb1f78d43a366e9e74f17e63, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 22
+      objectReference: {fileID: 0}
     - target: {fileID: 1631528718906086, guid: 020eb78efb1f78d43a366e9e74f17e63, type: 3}
       propertyPath: m_Name
       value: Derrick_NPC (12)
@@ -4512,6 +4524,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 695378283}
     m_Modifications:
+    - target: {fileID: 4108724626438957704, guid: 9b140eddf432bc84090a9b1ea8328206,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 22
+      objectReference: {fileID: 0}
     - target: {fileID: 4108724626871380533, guid: 9b140eddf432bc84090a9b1ea8328206,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4937,6 +4954,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 695378283}
     m_Modifications:
+    - target: {fileID: 4108724626438957704, guid: 9b140eddf432bc84090a9b1ea8328206,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 22
+      objectReference: {fileID: 0}
     - target: {fileID: 4108724626871380533, guid: 9b140eddf432bc84090a9b1ea8328206,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7672,6 +7694,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 695378283}
     m_Modifications:
+    - target: {fileID: 1513028315, guid: 020eb78efb1f78d43a366e9e74f17e63, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 22
+      objectReference: {fileID: 0}
     - target: {fileID: 1631528718906086, guid: 020eb78efb1f78d43a366e9e74f17e63, type: 3}
       propertyPath: m_Name
       value: Derrick_NPC (8)
@@ -12207,7 +12233,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 119
+  m_StaticEditorFlags: 22
   m_IsActive: 1
 --- !u!4 &368085620
 Transform:
@@ -13637,6 +13663,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1513028315, guid: 020eb78efb1f78d43a366e9e74f17e63, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 22
+      objectReference: {fileID: 0}
     - target: {fileID: 1631528718906086, guid: 020eb78efb1f78d43a366e9e74f17e63, type: 3}
       propertyPath: m_Name
       value: Derrick_NPC (22)
@@ -13949,6 +13979,10 @@ PrefabInstance:
     - target: {fileID: 1513028315, guid: 020eb78efb1f78d43a366e9e74f17e63, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1513028315, guid: 020eb78efb1f78d43a366e9e74f17e63, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 22
       objectReference: {fileID: 0}
     - target: {fileID: 1631528718906086, guid: 020eb78efb1f78d43a366e9e74f17e63, type: 3}
       propertyPath: m_Name
@@ -14427,6 +14461,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2048265357}
     m_Modifications:
+    - target: {fileID: 4108724626438957704, guid: 9b140eddf432bc84090a9b1ea8328206,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 22
+      objectReference: {fileID: 0}
     - target: {fileID: 4108724626871380533, guid: 9b140eddf432bc84090a9b1ea8328206,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -14852,6 +14891,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 695378283}
     m_Modifications:
+    - target: {fileID: 1513028315, guid: 020eb78efb1f78d43a366e9e74f17e63, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 22
+      objectReference: {fileID: 0}
     - target: {fileID: 1631528718906086, guid: 020eb78efb1f78d43a366e9e74f17e63, type: 3}
       propertyPath: m_Name
       value: Derrick_NPC (2)
@@ -15632,6 +15675,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2048265357}
     m_Modifications:
+    - target: {fileID: 4108724626438957704, guid: 9b140eddf432bc84090a9b1ea8328206,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 22
+      objectReference: {fileID: 0}
     - target: {fileID: 4108724626871380533, guid: 9b140eddf432bc84090a9b1ea8328206,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -18393,6 +18441,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 695378283}
     m_Modifications:
+    - target: {fileID: 1513028315, guid: 020eb78efb1f78d43a366e9e74f17e63, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 22
+      objectReference: {fileID: 0}
     - target: {fileID: 1631528718906086, guid: 020eb78efb1f78d43a366e9e74f17e63, type: 3}
       propertyPath: m_Name
       value: Derrick_NPC (14)
@@ -20019,6 +20071,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2048265357}
     m_Modifications:
+    - target: {fileID: 4108724626438957704, guid: 9b140eddf432bc84090a9b1ea8328206,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 22
+      objectReference: {fileID: 0}
     - target: {fileID: 4108724626871380533, guid: 9b140eddf432bc84090a9b1ea8328206,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -20287,6 +20344,10 @@ PrefabInstance:
     - target: {fileID: 1513028315, guid: 020eb78efb1f78d43a366e9e74f17e63, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1513028315, guid: 020eb78efb1f78d43a366e9e74f17e63, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 22
       objectReference: {fileID: 0}
     - target: {fileID: 1631528718906086, guid: 020eb78efb1f78d43a366e9e74f17e63, type: 3}
       propertyPath: m_Name
@@ -22144,6 +22205,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 695378283}
     m_Modifications:
+    - target: {fileID: 4108724626438957704, guid: 9b140eddf432bc84090a9b1ea8328206,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 22
+      objectReference: {fileID: 0}
     - target: {fileID: 4108724626871380533, guid: 9b140eddf432bc84090a9b1ea8328206,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -23711,6 +23777,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 695378283}
     m_Modifications:
+    - target: {fileID: 1513028315, guid: 020eb78efb1f78d43a366e9e74f17e63, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 22
+      objectReference: {fileID: 0}
     - target: {fileID: 1631528718906086, guid: 020eb78efb1f78d43a366e9e74f17e63, type: 3}
       propertyPath: m_Name
       value: Derrick_NPC (15)
@@ -30012,6 +30082,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 695378283}
     m_Modifications:
+    - target: {fileID: 4108724626438957704, guid: 9b140eddf432bc84090a9b1ea8328206,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 22
+      objectReference: {fileID: 0}
     - target: {fileID: 4108724626871380533, guid: 9b140eddf432bc84090a9b1ea8328206,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -32176,7 +32251,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 119
+  m_StaticEditorFlags: 22
   m_IsActive: 1
 --- !u!4 &1008417014
 Transform:
@@ -34070,6 +34145,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1513028315, guid: 020eb78efb1f78d43a366e9e74f17e63, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 22
+      objectReference: {fileID: 0}
     - target: {fileID: 1631528718906086, guid: 020eb78efb1f78d43a366e9e74f17e63, type: 3}
       propertyPath: m_Name
       value: Derrick_NPC (18)
@@ -34753,6 +34832,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1513028315, guid: 020eb78efb1f78d43a366e9e74f17e63, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 22
+      objectReference: {fileID: 0}
     - target: {fileID: 1631528718906086, guid: 020eb78efb1f78d43a366e9e74f17e63, type: 3}
       propertyPath: m_Name
       value: Derrick_NPC (11)
@@ -34991,6 +35074,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 695378283}
     m_Modifications:
+    - target: {fileID: 4108724626438957704, guid: 9b140eddf432bc84090a9b1ea8328206,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 22
+      objectReference: {fileID: 0}
     - target: {fileID: 4108724626871380533, guid: 9b140eddf432bc84090a9b1ea8328206,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -35966,6 +36054,10 @@ PrefabInstance:
     - target: {fileID: 248868637, guid: 020eb78efb1f78d43a366e9e74f17e63, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1513028315, guid: 020eb78efb1f78d43a366e9e74f17e63, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 22
       objectReference: {fileID: 0}
     - target: {fileID: 1631528718906086, guid: 020eb78efb1f78d43a366e9e74f17e63, type: 3}
       propertyPath: m_Name
@@ -39264,6 +39356,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 695378283}
     m_Modifications:
+    - target: {fileID: 4108724626438957704, guid: 9b140eddf432bc84090a9b1ea8328206,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 22
+      objectReference: {fileID: 0}
     - target: {fileID: 4108724626871380533, guid: 9b140eddf432bc84090a9b1ea8328206,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -39940,6 +40037,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1513028315, guid: 020eb78efb1f78d43a366e9e74f17e63, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 22
+      objectReference: {fileID: 0}
     - target: {fileID: 1631528718906086, guid: 020eb78efb1f78d43a366e9e74f17e63, type: 3}
       propertyPath: m_Name
       value: Derrick_NPC (17)
@@ -40181,6 +40282,10 @@ PrefabInstance:
     - target: {fileID: 248868637, guid: 020eb78efb1f78d43a366e9e74f17e63, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1513028315, guid: 020eb78efb1f78d43a366e9e74f17e63, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 22
       objectReference: {fileID: 0}
     - target: {fileID: 1631528718906086, guid: 020eb78efb1f78d43a366e9e74f17e63, type: 3}
       propertyPath: m_Name
@@ -42322,6 +42427,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1513028315, guid: 020eb78efb1f78d43a366e9e74f17e63, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 22
+      objectReference: {fileID: 0}
     - target: {fileID: 1631528718906086, guid: 020eb78efb1f78d43a366e9e74f17e63, type: 3}
       propertyPath: m_Name
       value: Derrick_NPC (6)
@@ -43729,6 +43838,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 695378283}
     m_Modifications:
+    - target: {fileID: 1513028315, guid: 020eb78efb1f78d43a366e9e74f17e63, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 22
+      objectReference: {fileID: 0}
     - target: {fileID: 1631528718906086, guid: 020eb78efb1f78d43a366e9e74f17e63, type: 3}
       propertyPath: m_Name
       value: Derrick_NPC (3)
@@ -43851,6 +43964,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 695378283}
     m_Modifications:
+    - target: {fileID: 4108724626438957704, guid: 9b140eddf432bc84090a9b1ea8328206,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 22
+      objectReference: {fileID: 0}
     - target: {fileID: 4108724626871380533, guid: 9b140eddf432bc84090a9b1ea8328206,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -49226,6 +49344,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1513028315, guid: 020eb78efb1f78d43a366e9e74f17e63, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 22
+      objectReference: {fileID: 0}
     - target: {fileID: 1631528718906086, guid: 020eb78efb1f78d43a366e9e74f17e63, type: 3}
       propertyPath: m_Name
       value: Derrick_NPC (20)
@@ -49882,6 +50004,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2048265357}
     m_Modifications:
+    - target: {fileID: 4108724626438957704, guid: 9b140eddf432bc84090a9b1ea8328206,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 22
+      objectReference: {fileID: 0}
     - target: {fileID: 4108724626871380533, guid: 9b140eddf432bc84090a9b1ea8328206,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -50094,6 +50221,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 695378283}
     m_Modifications:
+    - target: {fileID: 4108724626438957704, guid: 9b140eddf432bc84090a9b1ea8328206,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 22
+      objectReference: {fileID: 0}
     - target: {fileID: 4108724626871380533, guid: 9b140eddf432bc84090a9b1ea8328206,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -50208,6 +50340,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 695378283}
     m_Modifications:
+    - target: {fileID: 1513028315, guid: 020eb78efb1f78d43a366e9e74f17e63, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 22
+      objectReference: {fileID: 0}
     - target: {fileID: 1631528718906086, guid: 020eb78efb1f78d43a366e9e74f17e63, type: 3}
       propertyPath: m_Name
       value: Derrick_NPC (4)
@@ -50550,6 +50686,10 @@ PrefabInstance:
     - target: {fileID: 248868637, guid: 020eb78efb1f78d43a366e9e74f17e63, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1513028315, guid: 020eb78efb1f78d43a366e9e74f17e63, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 22
       objectReference: {fileID: 0}
     - target: {fileID: 1631528718906086, guid: 020eb78efb1f78d43a366e9e74f17e63, type: 3}
       propertyPath: m_Name
@@ -51408,6 +51548,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 695378283}
     m_Modifications:
+    - target: {fileID: 4108724626438957704, guid: 9b140eddf432bc84090a9b1ea8328206,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 22
+      objectReference: {fileID: 0}
     - target: {fileID: 4108724626871380533, guid: 9b140eddf432bc84090a9b1ea8328206,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -51605,6 +51750,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 695378283}
     m_Modifications:
+    - target: {fileID: 1513028315, guid: 020eb78efb1f78d43a366e9e74f17e63, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 22
+      objectReference: {fileID: 0}
     - target: {fileID: 1631528718906086, guid: 020eb78efb1f78d43a366e9e74f17e63, type: 3}
       propertyPath: m_Name
       value: Derrick_NPC
@@ -51667,6 +51816,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 695378283}
     m_Modifications:
+    - target: {fileID: 4108724626438957704, guid: 9b140eddf432bc84090a9b1ea8328206,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 22
+      objectReference: {fileID: 0}
     - target: {fileID: 4108724626871380533, guid: 9b140eddf432bc84090a9b1ea8328206,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -51903,6 +52057,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 695378283}
     m_Modifications:
+    - target: {fileID: 4108724626438957704, guid: 9b140eddf432bc84090a9b1ea8328206,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 22
+      objectReference: {fileID: 0}
     - target: {fileID: 4108724626871380533, guid: 9b140eddf432bc84090a9b1ea8328206,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -52983,6 +53142,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 695378283}
     m_Modifications:
+    - target: {fileID: 4108724626438957704, guid: 9b140eddf432bc84090a9b1ea8328206,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 22
+      objectReference: {fileID: 0}
     - target: {fileID: 4108724626871380533, guid: 9b140eddf432bc84090a9b1ea8328206,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -54859,6 +55023,10 @@ PrefabInstance:
     - target: {fileID: 1513028315, guid: 020eb78efb1f78d43a366e9e74f17e63, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1513028315, guid: 020eb78efb1f78d43a366e9e74f17e63, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 22
       objectReference: {fileID: 0}
     - target: {fileID: 1631528718906086, guid: 020eb78efb1f78d43a366e9e74f17e63, type: 3}
       propertyPath: m_Name
@@ -57402,6 +57570,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 695378283}
     m_Modifications:
+    - target: {fileID: 4108724626438957704, guid: 9b140eddf432bc84090a9b1ea8328206,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 22
+      objectReference: {fileID: 0}
     - target: {fileID: 4108724626871380533, guid: 9b140eddf432bc84090a9b1ea8328206,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -57682,6 +57855,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 695378283}
     m_Modifications:
+    - target: {fileID: 4108724626438957704, guid: 9b140eddf432bc84090a9b1ea8328206,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 22
+      objectReference: {fileID: 0}
     - target: {fileID: 4108724626871380533, guid: 9b140eddf432bc84090a9b1ea8328206,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -57934,6 +58112,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 695378283}
     m_Modifications:
+    - target: {fileID: 4108724626438957704, guid: 9b140eddf432bc84090a9b1ea8328206,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 22
+      objectReference: {fileID: 0}
     - target: {fileID: 4108724626871380533, guid: 9b140eddf432bc84090a9b1ea8328206,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -58449,6 +58632,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 695378283}
     m_Modifications:
+    - target: {fileID: 4108724626438957704, guid: 9b140eddf432bc84090a9b1ea8328206,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 22
+      objectReference: {fileID: 0}
     - target: {fileID: 4108724626871380533, guid: 9b140eddf432bc84090a9b1ea8328206,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -58737,6 +58925,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 695378283}
     m_Modifications:
+    - target: {fileID: 4108724626438957704, guid: 9b140eddf432bc84090a9b1ea8328206,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 22
+      objectReference: {fileID: 0}
     - target: {fileID: 4108724626871380533, guid: 9b140eddf432bc84090a9b1ea8328206,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -61964,6 +62157,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 695378283}
     m_Modifications:
+    - target: {fileID: 4108724626438957704, guid: 9b140eddf432bc84090a9b1ea8328206,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 22
+      objectReference: {fileID: 0}
     - target: {fileID: 4108724626871380533, guid: 9b140eddf432bc84090a9b1ea8328206,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -62244,6 +62442,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2048265357}
     m_Modifications:
+    - target: {fileID: 4108724626438957704, guid: 9b140eddf432bc84090a9b1ea8328206,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 22
+      objectReference: {fileID: 0}
     - target: {fileID: 4108724626871380533, guid: 9b140eddf432bc84090a9b1ea8328206,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -62553,6 +62756,10 @@ PrefabInstance:
     - target: {fileID: 248868637, guid: 020eb78efb1f78d43a366e9e74f17e63, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1513028315, guid: 020eb78efb1f78d43a366e9e74f17e63, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 22
       objectReference: {fileID: 0}
     - target: {fileID: 1631528718906086, guid: 020eb78efb1f78d43a366e9e74f17e63, type: 3}
       propertyPath: m_Name
@@ -65477,6 +65684,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1513028315, guid: 020eb78efb1f78d43a366e9e74f17e63, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 22
+      objectReference: {fileID: 0}
     - target: {fileID: 1631528718906086, guid: 020eb78efb1f78d43a366e9e74f17e63, type: 3}
       propertyPath: m_Name
       value: Derrick_NPC (13)
@@ -65710,6 +65921,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 695378283}
     m_Modifications:
+    - target: {fileID: 4108724626438957704, guid: 9b140eddf432bc84090a9b1ea8328206,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 22
+      objectReference: {fileID: 0}
     - target: {fileID: 4108724626871380533, guid: 9b140eddf432bc84090a9b1ea8328206,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -66002,6 +66218,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 695378283}
     m_Modifications:
+    - target: {fileID: 4108724626438957704, guid: 9b140eddf432bc84090a9b1ea8328206,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 22
+      objectReference: {fileID: 0}
     - target: {fileID: 4108724626871380533, guid: 9b140eddf432bc84090a9b1ea8328206,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -67896,6 +68117,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2048265357}
     m_Modifications:
+    - target: {fileID: 4108724626438957704, guid: 9b140eddf432bc84090a9b1ea8328206,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 22
+      objectReference: {fileID: 0}
     - target: {fileID: 4108724626871380533, guid: 9b140eddf432bc84090a9b1ea8328206,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -69060,6 +69286,10 @@ PrefabInstance:
     - target: {fileID: 1513028315, guid: 020eb78efb1f78d43a366e9e74f17e63, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1513028315, guid: 020eb78efb1f78d43a366e9e74f17e63, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 22
       objectReference: {fileID: 0}
     - target: {fileID: 1631528718906086, guid: 020eb78efb1f78d43a366e9e74f17e63, type: 3}
       propertyPath: m_Name

@@ -1,0 +1,6 @@
+Simple extended demo scene will be hosted in about 1-2 weeks after release.
+
+Unity terrain doesn't support custom grass shaders that's why we use Vegetation Studio Pro, old Vegetation Studio could be used too or any other custom grass solution.
+
+
+Unity terrain 2018.3+ will probably support custom grass shading on unity terrain object - this mean we will create full demo for this version.

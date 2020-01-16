@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: abc98c8cd24c7934998aafa96c89e44f
+labels:
+- texture
+- tile
+- tileable
+- Cliff
+- rock
+NativeFormatImporter:
+  userData: 

@@ -1,0 +1,536 @@
+fileFormatVersion: 2
+guid: 4744245bf5c9fa04b89f4b100d3f77fc
+timeCreated: 1523817853
+licenseType: Store
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Attic_03_Form2
+    100002: Chimney_02
+    100004: Corps_02_4
+    100006: Door_03
+    100008: Door_03_Frame
+    100010: Electrical_Socket_01
+    100012: Electrical_Socket_01 1
+    100014: Electrical_Socket_01 2
+    100016: Electrical_Socket_02
+    100018: Electrical_Socket_03
+    100020: Electrical_Socket_04
+    100022: Electrical_Socket_04 1
+    100024: Electrical_Socket_04 2
+    100026: Electrical_Switch_01
+    100028: Electrical_Switch_01 1
+    100030: Electrical_Switch_06
+    100032: Electrical_Switch_06 1
+    100034: Electrical_Switch_07
+    100036: Electrical_Switch_07 1
+    100038: Fireplace_06
+    100040: Foundation_01_2
+    100042: //RootNode
+    100044: Porch_07_2
+    100046: Roof_07_Form2
+    100048: Windows_10
+    100050: Windows_10 1
+    100052: Windows_10 2
+    100054: Windows_10_2
+    100056: Windows_10_2 1
+    100058: Windows_10_2glass
+    100060: Windows_10_2glass 1
+    100062: Windows_10_2glass 2
+    100064: Windows_10_2glass 3
+    100066: Windows_10_2glass 4
+    100068: Windows_10_2glass 5
+    100070: Windows_10_2glass 6
+    100072: Windows_10glass
+    100074: Windows_10glass 1
+    100076: Windows_10glass 2
+    100078: Windows_10glass 3
+    100080: Windows_10glass 4
+    100082: Windows_10glass 5
+    100084: Windows_10glass 6
+    100086: Windows_10glass 7
+    100088: Windows_10glass 8
+    100090: Windows_Big_01
+    100092: Windows_Big_01glass
+    100094: Windows_Big_01glass 1
+    100096: Windows_Big_01glass 2
+    100098: Windows_Big_01glass 3
+    100100: Windows_Big_01glass 4
+    100102: Windows_Big_01glass 5
+    400000: Attic_03_Form2
+    400002: Chimney_02
+    400004: Corps_02_4
+    400006: Door_03
+    400008: Door_03_Frame
+    400010: Electrical_Socket_01
+    400012: Electrical_Socket_01 1
+    400014: Electrical_Socket_01 2
+    400016: Electrical_Socket_02
+    400018: Electrical_Socket_03
+    400020: Electrical_Socket_04
+    400022: Electrical_Socket_04 1
+    400024: Electrical_Socket_04 2
+    400026: Electrical_Switch_01
+    400028: Electrical_Switch_01 1
+    400030: Electrical_Switch_06
+    400032: Electrical_Switch_06 1
+    400034: Electrical_Switch_07
+    400036: Electrical_Switch_07 1
+    400038: Fireplace_06
+    400040: Foundation_01_2
+    400042: //RootNode
+    400044: Porch_07_2
+    400046: Roof_07_Form2
+    400048: Windows_10
+    400050: Windows_10 1
+    400052: Windows_10 2
+    400054: Windows_10_2
+    400056: Windows_10_2 1
+    400058: Windows_10_2glass
+    400060: Windows_10_2glass 1
+    400062: Windows_10_2glass 2
+    400064: Windows_10_2glass 3
+    400066: Windows_10_2glass 4
+    400068: Windows_10_2glass 5
+    400070: Windows_10_2glass 6
+    400072: Windows_10glass
+    400074: Windows_10glass 1
+    400076: Windows_10glass 2
+    400078: Windows_10glass 3
+    400080: Windows_10glass 4
+    400082: Windows_10glass 5
+    400084: Windows_10glass 6
+    400086: Windows_10glass 7
+    400088: Windows_10glass 8
+    400090: Windows_Big_01
+    400092: Windows_Big_01glass
+    400094: Windows_Big_01glass 1
+    400096: Windows_Big_01glass 2
+    400098: Windows_Big_01glass 3
+    400100: Windows_Big_01glass 4
+    400102: Windows_Big_01glass 5
+    2100000: Wall_08
+    2100002: Wall_01
+    2100004: Wall_20
+    2100006: Wall_38
+    2100008: Wall_02
+    2100010: Corps_10
+    2100012: Corps_27
+    2100014: Ceiling_04
+    2100016: Ceiling_13
+    2100018: Ceiling_06
+    2100020: Stone_Details_01
+    2100022: Floor_17
+    2100024: Floor_13
+    2100026: Floor_23
+    2100028: Foundation_01
+    2100030: Wood_Details_01
+    2100032: Roof
+    2100034: Wood_Details_02
+    2100036: Roof_08
+    2100038: Porch_03
+    2100040: Porch_06
+    2100042: Porch_04
+    2100044: Doors_01
+    2100046: Doors_Details2
+    2100048: Doors_Details
+    2100050: Glass_01
+    2100052: Windows_03
+    2100054: Windows_04
+    2100056: 'Material #6823'
+    2100058: Fireplaces_01
+    2100060: Electricals_Sockets_01
+    2100062: Electricals_Switch_01
+    2300000: Attic_03_Form2
+    2300002: Chimney_02
+    2300004: Corps_02_4
+    2300006: Door_03
+    2300008: Door_03_Frame
+    2300010: Electrical_Socket_01
+    2300012: Electrical_Socket_01 1
+    2300014: Electrical_Socket_01 2
+    2300016: Electrical_Socket_02
+    2300018: Electrical_Socket_03
+    2300020: Electrical_Socket_04
+    2300022: Electrical_Socket_04 1
+    2300024: Electrical_Socket_04 2
+    2300026: Electrical_Switch_01
+    2300028: Electrical_Switch_01 1
+    2300030: Electrical_Switch_06
+    2300032: Electrical_Switch_06 1
+    2300034: Electrical_Switch_07
+    2300036: Electrical_Switch_07 1
+    2300038: Fireplace_06
+    2300040: Foundation_01_2
+    2300042: Porch_07_2
+    2300044: Roof_07_Form2
+    2300046: Windows_10
+    2300048: Windows_10 1
+    2300050: Windows_10 2
+    2300052: Windows_10_2
+    2300054: Windows_10_2 1
+    2300056: Windows_10_2glass
+    2300058: Windows_10_2glass 1
+    2300060: Windows_10_2glass 2
+    2300062: Windows_10_2glass 3
+    2300064: Windows_10_2glass 4
+    2300066: Windows_10_2glass 5
+    2300068: Windows_10_2glass 6
+    2300070: Windows_10glass
+    2300072: Windows_10glass 1
+    2300074: Windows_10glass 2
+    2300076: Windows_10glass 3
+    2300078: Windows_10glass 4
+    2300080: Windows_10glass 5
+    2300082: Windows_10glass 6
+    2300084: Windows_10glass 7
+    2300086: Windows_10glass 8
+    2300088: Windows_Big_01
+    2300090: Windows_Big_01glass
+    2300092: Windows_Big_01glass 1
+    2300094: Windows_Big_01glass 2
+    2300096: Windows_Big_01glass 3
+    2300098: Windows_Big_01glass 4
+    2300100: Windows_Big_01glass 5
+    3300000: Attic_03_Form2
+    3300002: Chimney_02
+    3300004: Corps_02_4
+    3300006: Door_03
+    3300008: Door_03_Frame
+    3300010: Electrical_Socket_01
+    3300012: Electrical_Socket_01 1
+    3300014: Electrical_Socket_01 2
+    3300016: Electrical_Socket_02
+    3300018: Electrical_Socket_03
+    3300020: Electrical_Socket_04
+    3300022: Electrical_Socket_04 1
+    3300024: Electrical_Socket_04 2
+    3300026: Electrical_Switch_01
+    3300028: Electrical_Switch_01 1
+    3300030: Electrical_Switch_06
+    3300032: Electrical_Switch_06 1
+    3300034: Electrical_Switch_07
+    3300036: Electrical_Switch_07 1
+    3300038: Fireplace_06
+    3300040: Foundation_01_2
+    3300042: Porch_07_2
+    3300044: Roof_07_Form2
+    3300046: Windows_10
+    3300048: Windows_10 1
+    3300050: Windows_10 2
+    3300052: Windows_10_2
+    3300054: Windows_10_2 1
+    3300056: Windows_10_2glass
+    3300058: Windows_10_2glass 1
+    3300060: Windows_10_2glass 2
+    3300062: Windows_10_2glass 3
+    3300064: Windows_10_2glass 4
+    3300066: Windows_10_2glass 5
+    3300068: Windows_10_2glass 6
+    3300070: Windows_10glass
+    3300072: Windows_10glass 1
+    3300074: Windows_10glass 2
+    3300076: Windows_10glass 3
+    3300078: Windows_10glass 4
+    3300080: Windows_10glass 5
+    3300082: Windows_10glass 6
+    3300084: Windows_10glass 7
+    3300086: Windows_10glass 8
+    3300088: Windows_Big_01
+    3300090: Windows_Big_01glass
+    3300092: Windows_Big_01glass 1
+    3300094: Windows_Big_01glass 2
+    3300096: Windows_Big_01glass 3
+    3300098: Windows_Big_01glass 4
+    3300100: Windows_Big_01glass 5
+    4300000: Corps_02_4
+    4300002: Foundation_01_2
+    4300004: Attic_03_Form2
+    4300006: Roof_07_Form2
+    4300008: Porch_07_2
+    4300010: Door_03
+    4300012: Door_03_Frame
+    4300014: Windows_10glass
+    4300016: Windows_10
+    4300018: Windows_10glass
+    4300020: Windows_10glass
+    4300022: Windows_10_2glass
+    4300024: Windows_10_2
+    4300026: Windows_10_2glass
+    4300028: Windows_10_2glass
+    4300030: Windows_10_2glass
+    4300032: Windows_10
+    4300034: Windows_10glass
+    4300036: Windows_10glass
+    4300038: Windows_10glass
+    4300040: Windows_10_2
+    4300042: Windows_10_2glass
+    4300044: Windows_10_2glass
+    4300046: Windows_10_2glass
+    4300048: Windows_10
+    4300050: Windows_10glass
+    4300052: Windows_10glass
+    4300054: Windows_10glass
+    4300056: Windows_Big_01glass
+    4300058: Windows_Big_01glass
+    4300060: Windows_Big_01glass
+    4300062: Windows_Big_01glass
+    4300064: Windows_Big_01glass
+    4300066: Windows_Big_01
+    4300068: Windows_Big_01glass
+    4300070: Chimney_02
+    4300072: Fireplace_06
+    4300074: Electrical_Socket_02
+    4300076: Electrical_Socket_03
+    4300078: Electrical_Socket_01
+    4300080: Electrical_Socket_01
+    4300082: Electrical_Socket_01
+    4300084: Electrical_Socket_04
+    4300086: Electrical_Socket_04
+    4300088: Electrical_Socket_04
+    4300090: Electrical_Switch_06
+    4300092: Electrical_Switch_06
+    4300094: Electrical_Switch_07
+    4300096: Electrical_Switch_07
+    4300098: Electrical_Switch_01
+    4300100: Electrical_Switch_01
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ceiling_04
+    second: {fileID: 2100000, guid: 2fa6e16c0455d8c4da9c6a8dd47f24a6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ceiling_06
+    second: {fileID: 2100000, guid: 40f5a6e508df3304dbe18b4bcbcf9921, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ceiling_13
+    second: {fileID: 2100000, guid: f82a313cc1dffd64399c0f49b15e6f30, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Corps_10
+    second: {fileID: 2100000, guid: 3329ef5299643d843ac9c11348ce6725, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Corps_27
+    second: {fileID: 2100000, guid: ca0b91b9c95665847aacb2a5ba567949, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Doors_01
+    second: {fileID: 2100000, guid: 62591342fee13914f8703230fb7e0ee5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Doors_Details
+    second: {fileID: 2100000, guid: 32934ce28674acf439fdc534d63b0568, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Doors_Details2
+    second: {fileID: 2100000, guid: a87af38f8751c574088522c1491dd869, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Electricals_Sockets_01
+    second: {fileID: 2100000, guid: 5f4e01f09a6051d408bac24336f2ff7b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Electricals_Switch_01
+    second: {fileID: 2100000, guid: eae958781b09768448534593b723e384, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Fireplaces_01
+    second: {fileID: 2100000, guid: 3e68e390dee0b2e4bbccf107dfbab509, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Floor_13
+    second: {fileID: 2100000, guid: 6549779e4a5fde842977cece1077bba7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Floor_17
+    second: {fileID: 2100000, guid: 4c81228205bd2484e945454ffa40894e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Floor_23
+    second: {fileID: 2100000, guid: a5da34543f2279f4397f34c153d67fe2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Foundation_01
+    second: {fileID: 2100000, guid: 473b544a196eb034c96acaea377457e8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glass_01
+    second: {fileID: 2100000, guid: 37f58289da9c825448f79c91a205a62b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #6823'
+    second: {fileID: 2100000, guid: 274fcaa2d59aa8c46aac0e59e8e076c5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Porch_03
+    second: {fileID: 2100000, guid: 35ea603b327871e4892bdbc61558c133, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Porch_04
+    second: {fileID: 2100000, guid: 29bbeaf7eb0b9864ca13183451fc9e50, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Porch_06
+    second: {fileID: 2100000, guid: 55fda18de86600948939203275c3cad2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roof
+    second: {fileID: 2100000, guid: 70b631338e9fe51419e7a9cec786948c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roof_08
+    second: {fileID: 2100000, guid: 99dc45c9bc09e7b4d97225aac704dd3f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stone_Details_01
+    second: {fileID: 2100000, guid: 899a4391808b2624d9f32fd90488cecc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wall_01
+    second: {fileID: 2100000, guid: 2f004c0862d96c546bdf23e4ceebb184, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wall_02
+    second: {fileID: 2100000, guid: 092d6c42e55f89345aff6dc92c0ff8d0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wall_08
+    second: {fileID: 2100000, guid: 69fc446fc732cd140bc018155b6caf10, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wall_20
+    second: {fileID: 2100000, guid: 5ff026bcfd528184a8a32de2f5cea947, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wall_38
+    second: {fileID: 2100000, guid: 122b87988e38f404488ee93bc84bae4a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Windows_03
+    second: {fileID: 2100000, guid: d07f95c24a49c2546b8927b75183a548, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Windows_04
+    second: {fileID: 2100000, guid: 4a29e7f8ae9073b4f845d3cc9fb6a18e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood_Details_01
+    second: {fileID: 2100000, guid: 84c2867e6b43e6a4b9da184e0042ca59, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood_Details_02
+    second: {fileID: 2100000, guid: b875e33c6fd9ed24c9875da3f6e2a3e7, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

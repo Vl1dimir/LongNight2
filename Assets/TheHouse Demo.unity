@@ -39428,11 +39428,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 695378283}
     m_Modifications:
-    - target: {fileID: 4108724626438957704, guid: 9b140eddf432bc84090a9b1ea8328206,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 4108724626871380533, guid: 9b140eddf432bc84090a9b1ea8328206,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -51870,10 +51865,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 695378283}
     m_Modifications:
-    - target: {fileID: 1513028315, guid: 020eb78efb1f78d43a366e9e74f17e63, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 1631528718906086, guid: 020eb78efb1f78d43a366e9e74f17e63, type: 3}
       propertyPath: m_Name
       value: Derrick_NPC
@@ -95955,640 +95946,640 @@ MonoBehaviour:
   fadeControl: {fileID: 3648559060323813832}
   saveableDataPairs:
   - BlockType: 0
-    BlockKey: InteractiveItem_d759faf0e90948629d56f8f9cf5f8715
+    BlockKey: InteractiveItem_3d1e917a1c8843ca8269b87b0ed22659
     Instance: {fileID: 14582617}
     FieldData: []
   - BlockType: 0
-    BlockKey: InteractiveItem_a68ab0693f504fd891fb6d44b1ba14d1
+    BlockKey: InteractiveItem_5b84c12872434b86b357ec8143120546
     Instance: {fileID: 23275288}
     FieldData: []
   - BlockType: 0
-    BlockKey: ZombieBehaviour_d43b0432f4774becb8c3a7ca5f18b5e5
+    BlockKey: ZombieBehaviour_b84b8f85c9194b668c2c6fe3ad6052bb
     Instance: {fileID: 74861853}
     FieldData: []
   - BlockType: 0
-    BlockKey: InteractiveItem_1dfff7e83334494595aa77694e2c901f
+    BlockKey: InteractiveItem_4ecd0e01be9743c19a90241651887472
     Instance: {fileID: 78695045}
     FieldData: []
   - BlockType: 0
-    BlockKey: ZombieBehaviour_85ade24cf12e4e799240aa065b47f8c8
+    BlockKey: ZombieBehaviour_272a738b43194282b865f24f725b323f
     Instance: {fileID: 93169464}
     FieldData: []
   - BlockType: 0
-    BlockKey: ZombieBehaviour_a1a22a99a6384f3eaa6c642373009e3d
+    BlockKey: ZombieBehaviour_d0aa6e5bc1214386b47d86e3f3137d8b
     Instance: {fileID: 119906414}
     FieldData: []
   - BlockType: 0
-    BlockKey: ZombieBehaviour_6734aca59c164bdeb7166123e8da594d
+    BlockKey: ZombieBehaviour_7cda0300dafe491ba8f41eb7e99d8412
     Instance: {fileID: 134078142}
     FieldData: []
   - BlockType: 0
-    BlockKey: ZombieBehaviour_dc59924c32fd46aaa74e8878a35e857b
+    BlockKey: ZombieBehaviour_6a8ecc82d6894d72ad1648aadc1d5f67
     Instance: {fileID: 145368464}
     FieldData: []
   - BlockType: 0
-    BlockKey: InteractiveItem_cccb4750af8840de9348bea52ea4c8b9
+    BlockKey: InteractiveItem_2616916a613a482b8cffa1676b95714a
     Instance: {fileID: 181398297}
     FieldData: []
   - BlockType: 0
-    BlockKey: InteractiveItem_8dd11911c07c457e840a7f0b7cad7196
+    BlockKey: InteractiveItem_3c42fe5aad2a4ab78b6ba910417ad4b2
     Instance: {fileID: 202505693}
     FieldData: []
   - BlockType: 0
-    BlockKey: InteractiveItem_055cf93d27354076b9831f49e6a9fe85
+    BlockKey: InteractiveItem_7f2324faf644459bb160651f49cce675
     Instance: {fileID: 213865373}
     FieldData: []
   - BlockType: 0
-    BlockKey: InteractiveItem_acc711e9fa004837b6987923888b2129
+    BlockKey: InteractiveItem_6af4e5c6b69a4c728641e4ec6cb3aaef
     Instance: {fileID: 217940937}
     FieldData: []
   - BlockType: 0
-    BlockKey: ZombieBehaviour_82580439cd1945188bf4e15466eec274
+    BlockKey: ZombieBehaviour_a1908084541544b5b9691fff0b5f898d
     Instance: {fileID: 251368210}
     FieldData: []
   - BlockType: 0
-    BlockKey: InteractiveItem_6bdbaf7a813d409da1ddd8e7418949f3
+    BlockKey: InteractiveItem_af8823ad7ea040c189231c1c9202e7f3
     Instance: {fileID: 278481204}
     FieldData: []
   - BlockType: 0
-    BlockKey: DynamicObject_ae52b8acb72b4e13b1aad1730c18a03f
+    BlockKey: DynamicObject_5b02ec0f6e4b4801a14f7274479895d2
     Instance: {fileID: 312723371}
     FieldData: []
   - BlockType: 0
-    BlockKey: TriggerHint_b0c6dce6dfdb49fe8dbd0a7d7c8560e9
+    BlockKey: TriggerHint_77f108a8bcd04703b41761a16a6206ec
     Instance: {fileID: 312723372}
     FieldData: []
   - BlockType: 0
-    BlockKey: InteractiveItem_2e73e56bdb4042368e532b461be072a9
+    BlockKey: InteractiveItem_adc7f6365eac48279442a14d4f1f0022
     Instance: {fileID: 368953120}
     FieldData: []
   - BlockType: 0
-    BlockKey: ZombieBehaviour_529c15501082424dbe58f28333362a2a
+    BlockKey: ZombieBehaviour_14a2a248a5784dc39a84a315b1ef9df0
     Instance: {fileID: 377654391}
     FieldData: []
   - BlockType: 0
-    BlockKey: InteractiveItem_1be91980549144bd93105f24b3be2e6c
+    BlockKey: InteractiveItem_8948bc74e0794c0cb9e3e2b20bffe417
     Instance: {fileID: 404332150}
     FieldData: []
   - BlockType: 0
-    BlockKey: InteractiveItem_243bea9ba52b4454ad3e0166e78983cb
+    BlockKey: InteractiveItem_463bd935366c44d0bfda4dbbc5dbe0cd
     Instance: {fileID: 432770544}
     FieldData: []
   - BlockType: 0
-    BlockKey: ZombieBehaviour_7159b997c8894ae083677b3bea6fb6a5
+    BlockKey: ZombieBehaviour_dd786d34cd76477ba4e1855fdb527c1b
     Instance: {fileID: 433263020}
     FieldData: []
   - BlockType: 0
-    BlockKey: InteractiveItem_2a82a7404523433fa2bb9d083b9cc7b2
+    BlockKey: InteractiveItem_3e682e03db394cf78897b939528363f7
     Instance: {fileID: 434428047}
     FieldData: []
   - BlockType: 0
-    BlockKey: ZombieBehaviour_79fa0113cd2f44b9b1913e7f464201b0
+    BlockKey: ZombieBehaviour_d51099aba9f94a40817f65055683660c
     Instance: {fileID: 449947548}
     FieldData: []
   - BlockType: 0
-    BlockKey: ZombieBehaviour_90c9ebd3f3ff484db1867daccef396ef
+    BlockKey: ZombieBehaviour_c22190f3f93a471e8d1090025ceed290
     Instance: {fileID: 478459808}
     FieldData: []
   - BlockType: 0
-    BlockKey: InteractiveItem_015cb80774cd4371aca33b4689ccf14a
+    BlockKey: InteractiveItem_e6235133ccda46b8bbc1ce1295637baa
     Instance: {fileID: 481843630}
     FieldData: []
   - BlockType: 0
-    BlockKey: InteractiveItem_9b8f3f2ec1b74fab85127e1fec210e5f
+    BlockKey: InteractiveItem_55ac0fac86884b599e3897feed898fec
     Instance: {fileID: 563051128}
     FieldData: []
   - BlockType: 0
-    BlockKey: ZombieBehaviour_f322666db71f4e4bab9ff020e50ee752
+    BlockKey: ZombieBehaviour_16a5e90b500f4414b1020d20009f20c9
     Instance: {fileID: 575622635}
     FieldData: []
   - BlockType: 0
-    BlockKey: InteractiveItem_770a0dd11834467daf29733fcfee8479
+    BlockKey: InteractiveItem_6077e7ee327d44bdacd399237062ad37
     Instance: {fileID: 578248864}
     FieldData: []
   - BlockType: 0
-    BlockKey: ZombieBehaviour_1db3aea2409e417099ffc1f68c13b320
+    BlockKey: ZombieBehaviour_dfaefc0410214fc6acdaeb26a8fc68d6
     Instance: {fileID: 580499548}
     FieldData: []
   - BlockType: 0
-    BlockKey: InteractiveItem_f76d5c4cba7e462f884415d658416391
+    BlockKey: InteractiveItem_6327e5708b50425da583bd491aa36154
     Instance: {fileID: 583761897}
     FieldData: []
   - BlockType: 0
-    BlockKey: ZombieBehaviour_c1f8770315844874a192e9370176c9fb
+    BlockKey: ZombieBehaviour_30465399fde94dcebda9cc4e20d8518d
     Instance: {fileID: 617615025}
     FieldData: []
   - BlockType: 0
-    BlockKey: InteractiveItem_17f9e07a79744325aefe955356ce2b5b
+    BlockKey: InteractiveItem_49fd504639ad42779c4da28099ef977d
     Instance: {fileID: 665993196}
     FieldData: []
   - BlockType: 0
-    BlockKey: ZombieBehaviour_90485f46e169468fa930c0004d4a0991
+    BlockKey: ZombieBehaviour_09fae0a34df84113b57facbcda99bfea
     Instance: {fileID: 687506241}
     FieldData: []
   - BlockType: 0
-    BlockKey: ZombieBehaviour_01e9ac589c654223831d56a65aee4987
+    BlockKey: ZombieBehaviour_10591add7d95487795fede01ae18d88f
     Instance: {fileID: 694791342}
     FieldData: []
   - BlockType: 0
-    BlockKey: InteractiveItem_3a84d19575814e59b0cc0028927665fb
+    BlockKey: InteractiveItem_ccd463db192a468184528f4d84a96d5b
     Instance: {fileID: 695551876}
     FieldData: []
   - BlockType: 0
-    BlockKey: InteractiveItem_88e84d69b9084aa2a81c389388989a54
+    BlockKey: InteractiveItem_d38970a1355b4bda9e0814d78256b3cd
     Instance: {fileID: 699137452}
     FieldData: []
   - BlockType: 0
-    BlockKey: InteractiveItem_20871d467ec34f30bf18c8ac56baca3f
+    BlockKey: InteractiveItem_a920b60a56e3455f90ac60b41ee50051
     Instance: {fileID: 707055342}
     FieldData: []
   - BlockType: 0
-    BlockKey: ZombieBehaviour_2f3530aa96024b4ab0f0ff7567265db9
+    BlockKey: ZombieBehaviour_1d1868b47515433b991111d46613e732
     Instance: {fileID: 730663136}
     FieldData: []
   - BlockType: 0
-    BlockKey: InteractiveItem_ea0bd084dd3a4d539d3e49b5dca12845
+    BlockKey: InteractiveItem_95265bf9f44846ddbbcff86c97dee89b
     Instance: {fileID: 757062470}
     FieldData: []
   - BlockType: 0
-    BlockKey: ZombieBehaviour_80ce1ee5669f4b30b8dd29da5c5dfbfd
+    BlockKey: ZombieBehaviour_b69dd4d33f914b00820805a8cce549da
     Instance: {fileID: 757418463}
     FieldData: []
   - BlockType: 0
-    BlockKey: ZombieBehaviour_997b3379497146f99429e9da060e1e74
+    BlockKey: ZombieBehaviour_752389e38345402f90fb3f41cf1f3305
     Instance: {fileID: 809980027}
     FieldData: []
   - BlockType: 0
-    BlockKey: InteractiveItem_9563dcb6ba6b4f7182ccb9e049c84968
+    BlockKey: InteractiveItem_f7b01631d2d24745b2346417a4bd9885
     Instance: {fileID: 853007437}
     FieldData: []
   - BlockType: 0
-    BlockKey: InteractiveItem_10e688157f8c4ce196e23ac7a575f45e
+    BlockKey: InteractiveItem_bf41700988f343d99d7f085801ffaece
     Instance: {fileID: 870373075}
     FieldData: []
   - BlockType: 0
-    BlockKey: ZombieBehaviour_d18264d039074ccc9c7c7016b4ae4d36
+    BlockKey: ZombieBehaviour_f61dd39b6db044c09f41d973da4573e1
     Instance: {fileID: 952465443}
     FieldData: []
   - BlockType: 0
-    BlockKey: InteractiveItem_ef11a2ec476b498ab6f78fecfa83b3a8
+    BlockKey: InteractiveItem_f949b539cee04686b0d3a2226e360b70
     Instance: {fileID: 1038889744}
     FieldData: []
   - BlockType: 0
-    BlockKey: InteractiveItem_cf29c2f6f0ec4487844bc0cc5cf68c50
+    BlockKey: InteractiveItem_ba1777b3eb9543fbaa636d5bc0ef4b80
     Instance: {fileID: 1042638433}
     FieldData: []
   - BlockType: 0
-    BlockKey: ZombieBehaviour_6f666baf0f814c7e9dab3b92c2ed869d
+    BlockKey: ZombieBehaviour_416baec8eabe41b19d3fbe3ffb1dce53
     Instance: {fileID: 1057267574}
     FieldData: []
   - BlockType: 0
-    BlockKey: ZombieBehaviour_f59384a051694c54a01202b478eb0caf
+    BlockKey: ZombieBehaviour_85bf82e6dd0a458299991202e2a3efd7
     Instance: {fileID: 1080483016}
     FieldData: []
   - BlockType: 0
-    BlockKey: InteractiveItem_af85debaa9814adc9ef701b2f8780833
+    BlockKey: InteractiveItem_a22410ce9861476bb8447beca2158d7d
     Instance: {fileID: 1080953941}
     FieldData: []
   - BlockType: 0
-    BlockKey: ZombieBehaviour_c4dd86f5bafa427ba79685048134fb1f
+    BlockKey: ZombieBehaviour_1f368fb7076e4fd38eee82d2a38ecedd
     Instance: {fileID: 1086965112}
     FieldData: []
   - BlockType: 0
-    BlockKey: ZombieBehaviour_ba914717bbd44e548bda610dfb7192cf
+    BlockKey: ZombieBehaviour_514fca3b48a342bd81b51eac77c730d8
     Instance: {fileID: 1093635156}
     FieldData: []
   - BlockType: 0
-    BlockKey: ZombieBehaviour_1ef8135af61542c2a29d8b8e52d5a94a
+    BlockKey: ZombieBehaviour_ce49567685a44e07b04f0e62454f3202
     Instance: {fileID: 1121898682}
     FieldData: []
   - BlockType: 0
-    BlockKey: InteractiveItem_791521cf31c140b5895543b5405b22b5
+    BlockKey: InteractiveItem_e6c4fbd21f1f4e10aa738d71e508fafc
     Instance: {fileID: 1135273623}
     FieldData: []
   - BlockType: 0
-    BlockKey: InteractiveItem_161b39b4bbaa4308a366596e47e8f934
+    BlockKey: InteractiveItem_21bc1f53a9584b3f946e1faeaddcc414
     Instance: {fileID: 1138484747}
     FieldData: []
   - BlockType: 0
-    BlockKey: ZombieBehaviour_207ebbcee2e146e78761923cf6bf1d4d
+    BlockKey: ZombieBehaviour_f4083ba2a90644a9aae538e64e061a51
     Instance: {fileID: 1150008044}
     FieldData: []
   - BlockType: 0
-    BlockKey: ZombieBehaviour_0d347488c3644982a48b83f2e2101dbf
+    BlockKey: ZombieBehaviour_3483bdbd16a843ccacda44ae91123add
     Instance: {fileID: 1180785801}
     FieldData: []
   - BlockType: 0
-    BlockKey: ZombieBehaviour_c32361e5a60e4c8087c3a174b1d6f376
+    BlockKey: ZombieBehaviour_e71cbf29cfeb4c3ea5a82b7f8c4296ec
     Instance: {fileID: 1226238532}
     FieldData: []
   - BlockType: 0
-    BlockKey: DynamicObject_3438ed3550c1457d90868fca020abec8
+    BlockKey: DynamicObject_b8e9cc55af414cd5b779321d0b901e88
     Instance: {fileID: 1241383006}
     FieldData: []
   - BlockType: 0
-    BlockKey: DynamicObject_ce7d172975534912b4e0207391c43c56
+    BlockKey: DynamicObject_fa29c6f0404b42f48e9f6eaa47d49257
     Instance: {fileID: 1241383007}
     FieldData: []
   - BlockType: 0
-    BlockKey: ZombieBehaviour_636cda432ab4427aba1154d28830f511
+    BlockKey: ZombieBehaviour_8e99ea9d4aab4b0d923cd373330865eb
     Instance: {fileID: 1250493490}
     FieldData: []
   - BlockType: 0
-    BlockKey: InteractiveItem_5ac6a86bcaa54a30b68503c99b642f14
+    BlockKey: InteractiveItem_e4c07ddef3244cafbd663c6457dc4dca
     Instance: {fileID: 1261397835}
     FieldData: []
   - BlockType: 0
-    BlockKey: ZombieBehaviour_bc5b9d2be17b4575809cad085bdff6e5
+    BlockKey: ZombieBehaviour_d775e8d4b95742469f0dfcce8f9782ed
     Instance: {fileID: 1276920085}
     FieldData: []
   - BlockType: 0
-    BlockKey: ZombieBehaviour_6424d045519f4efb978f275650f78507
+    BlockKey: ZombieBehaviour_a209b92b874143399f4b48ee4de8ff9a
     Instance: {fileID: 1288994408}
     FieldData: []
   - BlockType: 0
-    BlockKey: ZombieBehaviour_196c0e4165c5427eb10d14a91206347f
+    BlockKey: ZombieBehaviour_7fdde0e2dbdb4945a8dcbd486d67d200
     Instance: {fileID: 1322676328}
     FieldData: []
   - BlockType: 0
-    BlockKey: InteractiveItem_381797b7495842cda51cc40f5f461266
+    BlockKey: InteractiveItem_b91c6041a2c94af8830739d536731a59
     Instance: {fileID: 1402365015}
     FieldData: []
   - BlockType: 0
-    BlockKey: InteractiveItem_418a96fac0874deabffcb536c3e3bf5d
+    BlockKey: InteractiveItem_f9f2175928cd46e6b22ff4c780931c16
     Instance: {fileID: 1406393280}
     FieldData: []
   - BlockType: 0
-    BlockKey: InteractiveItem_2509f3b72b174fa0baf104440452a2ec
+    BlockKey: InteractiveItem_4f0e531bcbb7407ab948778eaa401c23
     Instance: {fileID: 1410013542}
     FieldData: []
   - BlockType: 0
-    BlockKey: InteractiveItem_e4591689a37446f6ad0d1a89586b2b19
+    BlockKey: InteractiveItem_5bf1782826ba4fb7b3dc107f22bdeb33
     Instance: {fileID: 1455190336}
     FieldData: []
   - BlockType: 0
-    BlockKey: InteractiveItem_42c2b6209d734d97a33c55be1b10b74e
+    BlockKey: InteractiveItem_e421516410674bbb976e341d4dad39d1
     Instance: {fileID: 1469057728}
     FieldData: []
   - BlockType: 0
-    BlockKey: DynamicObject_a2a7584763d14a4b81ad6a1a55d124c8
+    BlockKey: DynamicObject_a05966eb6c924dedaa9a3072a1ffe3f9
     Instance: {fileID: 1513318793}
     FieldData: []
   - BlockType: 0
-    BlockKey: DynamicObject_576e2012b60e480a8a1090a5b9d1fe22
+    BlockKey: DynamicObject_179b373a09af4a5c912e5325cd95f1af
     Instance: {fileID: 1513318794}
     FieldData: []
   - BlockType: 0
-    BlockKey: InteractiveItem_eb7a384b2fdb4da1b1015ed6ba428f82
+    BlockKey: InteractiveItem_0073493b97c54245be4e44811bc35f84
     Instance: {fileID: 1515455334}
     FieldData: []
   - BlockType: 0
-    BlockKey: ZombieBehaviour_db653ec5669145a7b13d3d0bfddb6264
+    BlockKey: ZombieBehaviour_c856e6c24e42412b9492cf1d436774e6
     Instance: {fileID: 1534822027}
     FieldData: []
   - BlockType: 0
-    BlockKey: ZombieBehaviour_9490d741a19b4374a63f02d873ad8768
+    BlockKey: ZombieBehaviour_4fe27360945c413f93b127812a9d3af4
     Instance: {fileID: 1545160143}
     FieldData: []
   - BlockType: 0
-    BlockKey: ZombieBehaviour_d94e5707a9704316a6067b028213cde3
+    BlockKey: ZombieBehaviour_a9dc54f78bad496d8f00bb5119797840
     Instance: {fileID: 1553791305}
     FieldData: []
   - BlockType: 0
-    BlockKey: InteractiveItem_0e496f64b9284d5c817a8fa679d6242c
+    BlockKey: InteractiveItem_0d196572af734d14a61d1ed75fd8e985
     Instance: {fileID: 1570196614}
     FieldData: []
   - BlockType: 0
-    BlockKey: ZombieBehaviour_ca5fc39b572b4a08bb43f4226ee87f02
+    BlockKey: ZombieBehaviour_359d187d8d674ed3972e562112cd32ce
     Instance: {fileID: 1580678807}
     FieldData: []
   - BlockType: 0
-    BlockKey: ZombieBehaviour_099241cd484a44fea4a66e7614669896
+    BlockKey: ZombieBehaviour_68f62f36e05544db870587e2c740d53c
     Instance: {fileID: 1585107096}
     FieldData: []
   - BlockType: 0
-    BlockKey: ZombieBehaviour_770ad9d333354cd0b286a977dc314e07
+    BlockKey: ZombieBehaviour_b37e61025fd94513831c9f97326a81da
     Instance: {fileID: 1594329961}
     FieldData: []
   - BlockType: 0
-    BlockKey: ZombieBehaviour_f8b1a9d30d1a4ae086632a1f4da16b30
+    BlockKey: ZombieBehaviour_e0d0244b8a364763a97139cd47d3220d
     Instance: {fileID: 1594733465}
     FieldData: []
   - BlockType: 0
-    BlockKey: InteractiveItem_e41e344408634702be373a53d3251209
+    BlockKey: InteractiveItem_4c8794c6151547e182d63d36e95d429d
     Instance: {fileID: 1643496621}
     FieldData: []
   - BlockType: 0
-    BlockKey: DynamicObject_33a4b6d086744756ab537c0e0ecbd4a5
+    BlockKey: DynamicObject_5c876c092e23485d886ba6726bef2fb5
     Instance: {fileID: 1649815820}
     FieldData: []
   - BlockType: 0
-    BlockKey: DynamicObject_95b1d05b530342488f7d6a9c9c0f0711
+    BlockKey: DynamicObject_4b1960d7821a4502bbcea3e15c82125c
     Instance: {fileID: 1649815821}
     FieldData: []
   - BlockType: 0
-    BlockKey: ZombieBehaviour_812c8fde28b5447da75893f2c4b308ab
+    BlockKey: ZombieBehaviour_f7c530526c3147a8912f652aa79303f8
     Instance: {fileID: 1652149262}
     FieldData: []
   - BlockType: 0
-    BlockKey: DynamicObject_81bf495f956a45f79933b3cce56a6b79
+    BlockKey: DynamicObject_cfc4943d89b24c9dba2e39e053f54dd0
     Instance: {fileID: 1664176048}
     FieldData: []
   - BlockType: 0
-    BlockKey: DynamicObject_bb34c55e62854fc9a1a31c26edf9bb24
+    BlockKey: DynamicObject_82ac32469dad4649a038b82dc239ec72
     Instance: {fileID: 1664176049}
     FieldData: []
   - BlockType: 0
-    BlockKey: ZombieBehaviour_e9275310bde941f7bb0723dc4fc6be01
+    BlockKey: ZombieBehaviour_48dbc78d7dd14ec1af668ee2915b0811
     Instance: {fileID: 1681958949}
     FieldData: []
   - BlockType: 0
-    BlockKey: InteractiveItem_37fca63f97ce47218b90db52f6b35938
+    BlockKey: InteractiveItem_d001f530be1641678c204a58639269ce
     Instance: {fileID: 1698590930}
     FieldData: []
   - BlockType: 0
-    BlockKey: InteractiveItem_f665aabdc2394ceb836be66f55a66d7e
+    BlockKey: InteractiveItem_87807029ab9f44a8a285dec9690359a9
     Instance: {fileID: 1717564444}
     FieldData: []
   - BlockType: 0
-    BlockKey: ZombieBehaviour_2673bb79b5be48c1bd4243df0250e391
+    BlockKey: ZombieBehaviour_035fbd7cc19a47b492016b1cee88a90e
     Instance: {fileID: 1745301822}
     FieldData: []
   - BlockType: 0
-    BlockKey: InteractiveItem_ad891ce9ae2248b999a19a316b53ea24
+    BlockKey: InteractiveItem_5fd6c772d84b476285c4b0dddf874589
     Instance: {fileID: 1757509174}
     FieldData: []
   - BlockType: 0
-    BlockKey: ZombieBehaviour_60f05cf9f38f41c9913e6ae9d76bbca8
+    BlockKey: ZombieBehaviour_df8cfe4783f34415ba5f836f6f4c3d16
     Instance: {fileID: 1770502460}
     FieldData: []
   - BlockType: 0
-    BlockKey: ZombieBehaviour_aded60e5d63c43a680ac66d38f08220b
+    BlockKey: ZombieBehaviour_500da41008174a8f8c2b705566082db6
     Instance: {fileID: 1778007865}
     FieldData: []
   - BlockType: 0
-    BlockKey: InteractiveItem_f56cd4e937714cfa952e9ce16a6c13c2
+    BlockKey: InteractiveItem_285949a78ec946979feeb99d1a03c379
     Instance: {fileID: 1789723573}
     FieldData: []
   - BlockType: 0
-    BlockKey: ZombieBehaviour_9d0d3f79645b4853b01f3113104cfdfb
+    BlockKey: ZombieBehaviour_f272e8650f614c3c90a31f266d06ff6a
     Instance: {fileID: 1806753080}
     FieldData: []
   - BlockType: 0
-    BlockKey: InteractiveItem_330cd6fd66904cadbfce75470aa70991
+    BlockKey: InteractiveItem_384aa7e257734917be4d8d138cc35625
     Instance: {fileID: 1817440248}
     FieldData: []
   - BlockType: 0
-    BlockKey: ZombieBehaviour_5f02b46226bf4d989db62bffa0ca21b9
+    BlockKey: ZombieBehaviour_69c5a738c93245ebb940026854cc7e69
     Instance: {fileID: 1820387976}
     FieldData: []
   - BlockType: 0
-    BlockKey: InteractiveItem_6b447182628049cfb795d794ed01d27b
+    BlockKey: InteractiveItem_cbe9e5c46a7a430886ea6e3e8f4b2de9
     Instance: {fileID: 1820785383}
     FieldData: []
   - BlockType: 0
-    BlockKey: ZombieBehaviour_a6adca51363b4268b976fe89f219379f
+    BlockKey: ZombieBehaviour_425642dbf6a34b44a2cbf1ca0b7e3501
     Instance: {fileID: 1830808151}
     FieldData: []
   - BlockType: 0
-    BlockKey: InteractiveItem_47bf5b695e514a8cb204e3cb2ffdbe45
+    BlockKey: InteractiveItem_e579d870e997432699a991f22bd1463b
     Instance: {fileID: 1859661096}
     FieldData: []
   - BlockType: 0
-    BlockKey: InteractiveItem_828e3274a8fa44b9beb29c69b5351a45
+    BlockKey: InteractiveItem_f119bb24cb74422d8549c3b8e1c37317
     Instance: {fileID: 1884912276}
     FieldData: []
   - BlockType: 0
-    BlockKey: InteractiveItem_99fd66df073847528a9da98e84241689
+    BlockKey: InteractiveItem_a60b3ed5a2434b3fa56ef0134baac163
     Instance: {fileID: 1890107044}
     FieldData: []
   - BlockType: 0
-    BlockKey: ZombieBehaviour_a02f01df45e6419081d716d6baa1d513
+    BlockKey: ZombieBehaviour_bf5f699a9d1c46609faaa0eb41acf8f5
     Instance: {fileID: 1898409611}
     FieldData: []
   - BlockType: 0
-    BlockKey: ZombieBehaviour_1c67365e52594f28920173c266308533
+    BlockKey: ZombieBehaviour_9cd258a9ac8c4a0592b97fc9b24835e8
     Instance: {fileID: 1902928113}
     FieldData: []
   - BlockType: 0
-    BlockKey: ZombieBehaviour_378341c925b743d5b7e22fcb34acaf24
+    BlockKey: ZombieBehaviour_0ba9712097d0444bbaf6eefff14aad7c
     Instance: {fileID: 1907588511}
     FieldData: []
   - BlockType: 0
-    BlockKey: InteractiveItem_59ba477157fc4252a4e09de8bbabf40c
+    BlockKey: InteractiveItem_b2453923345c46e0b3a4c1768439945e
     Instance: {fileID: 1914467571}
     FieldData: []
   - BlockType: 0
-    BlockKey: InteractiveItem_477d597f8c0343dfaf51a7c9eb4caa73
+    BlockKey: InteractiveItem_fed3dabce8464b328aa51b1a429e96a7
     Instance: {fileID: 1925535106}
     FieldData: []
   - BlockType: 0
-    BlockKey: InteractiveItem_3e6af46a752748ebb6ac490d41adf2f7
+    BlockKey: InteractiveItem_b3b13e2d69d3441d8b01a42066695ca3
     Instance: {fileID: 1957209516}
     FieldData: []
   - BlockType: 0
-    BlockKey: InteractiveItem_fdfd2c142bab4fcbaafce6250187a585
+    BlockKey: InteractiveItem_843d186c0de14a9496bca290c3eae0d8
     Instance: {fileID: 1982809630}
     FieldData: []
   - BlockType: 0
-    BlockKey: ZombieBehaviour_632579d52c974381a2e35a1eb1ad4661
+    BlockKey: ZombieBehaviour_29e7bd54389647149699c1bdca5460c0
     Instance: {fileID: 2004510726}
     FieldData: []
   - BlockType: 0
-    BlockKey: InteractiveItem_5aab220b4c4b4db5b79f629b4a25299a
+    BlockKey: InteractiveItem_26142aec1ae24263af4849f0fc1085d4
     Instance: {fileID: 2030679913}
     FieldData: []
   - BlockType: 0
-    BlockKey: InteractiveItem_22f7acc77ac342049226f1ccdaa46e4c
+    BlockKey: InteractiveItem_0775a7a537a84827ba9601c436933b4d
     Instance: {fileID: 2040499089}
     FieldData: []
   - BlockType: 0
-    BlockKey: InteractiveItem_548249070ef74e38a5d10c4c0db67ddc
+    BlockKey: InteractiveItem_0d41cb793cd743f483e48a8c79964f1d
     Instance: {fileID: 2040621128}
     FieldData: []
   - BlockType: 0
-    BlockKey: ZombieBehaviour_e4da195015784a798ae7208ab0efcae8
+    BlockKey: ZombieBehaviour_f8c04e20d9a64203ab022a113298e7c5
     Instance: {fileID: 2071597455}
     FieldData: []
   - BlockType: 0
-    BlockKey: InteractiveItem_1a96e225ce2947558340f412b137374b
+    BlockKey: InteractiveItem_0b2352b9f44d4c31829bd8f7a2c0f1a8
     Instance: {fileID: 2078550586}
     FieldData: []
   - BlockType: 0
-    BlockKey: InteractiveItem_cad7de7bb4f949b199921fb2c0448e10
+    BlockKey: InteractiveItem_ae712bef4f7f48b89f0cf2c347c54592
     Instance: {fileID: 2093641522}
     FieldData: []
   - BlockType: 0
-    BlockKey: InteractiveItem_c2a604cb754d41508b2725a030e3fb87
+    BlockKey: InteractiveItem_b4a5b4ce6c3c4ed1ab166476e9d33bdb
     Instance: {fileID: 2126943127}
     FieldData: []
   - BlockType: 1
-    BlockKey: TriggerObjective_1a033a650dad4b04ab71a172ae7edc4e
+    BlockKey: TriggerObjective_76c0ad4f5abd4c5d98b0b93edb2f73f4
     Instance: {fileID: 134078141}
     FieldData:
     - isTriggered
   - BlockType: 1
-    BlockKey: TriggerObjective_032c9fd00dc8481db1b6a8b7edfd8402
+    BlockKey: TriggerObjective_bd1b0cd9bcf14778b5c5ed9ecd0ca74d
     Instance: {fileID: 145368463}
     FieldData:
     - isTriggered
   - BlockType: 1
-    BlockKey: TriggerObjective_ff9d8885cbcb49fd8fdeee22f76229a9
+    BlockKey: TriggerObjective_5722d72da0924aada80c05960dd25032
     Instance: {fileID: 433263019}
     FieldData:
     - isTriggered
   - BlockType: 1
-    BlockKey: TriggerObjective_30d832e3d3634adbb7d9c6e35ecef844
+    BlockKey: TriggerObjective_814f3b4e122343ddae8da21bafa4f287
     Instance: {fileID: 478459807}
     FieldData:
     - isTriggered
   - BlockType: 1
-    BlockKey: TriggerObjective_766e093719124174ad7f114a65aca9a7
+    BlockKey: TriggerObjective_ab5e7f8564224e23ac57083f24f7549b
     Instance: {fileID: 617615024}
     FieldData:
     - isTriggered
   - BlockType: 1
-    BlockKey: TriggerObjective_3209a80b0800462eba983743f44859f5
+    BlockKey: TriggerObjective_ee1c39555b9947989f7def9d9e3790c3
     Instance: {fileID: 687506240}
     FieldData:
     - isTriggered
   - BlockType: 1
-    BlockKey: TriggerObjective_bbbd72e2906249f1ab4854901dee8974
+    BlockKey: TriggerObjective_279a89fc66a146d9a0af0281d118ad6b
     Instance: {fileID: 952465442}
     FieldData:
     - isTriggered
   - BlockType: 1
-    BlockKey: TriggerObjective_ce2b1ed52f5c4b5fbee045d992aaf6f7
+    BlockKey: TriggerObjective_14fb1e293a96477a8117b7e66b11b9e5
     Instance: {fileID: 981542839}
     FieldData:
     - isTriggered
   - BlockType: 1
-    BlockKey: TriggerObjective_836ad7f22a834897876ef2b154340bf4
+    BlockKey: TriggerObjective_28cf6fce883e4009933e27d6e382e5f7
     Instance: {fileID: 1057267572}
     FieldData:
     - isTriggered
   - BlockType: 1
-    BlockKey: TriggerObjective_680dd711d68c47c984ba19c05396c35b
+    BlockKey: TriggerObjective_e2a5e550213c4d1fa8bf888ea7f399ff
     Instance: {fileID: 1080953939}
     FieldData:
     - isTriggered
   - BlockType: 1
-    BlockKey: ItemEvent_04f3d9b720ea4e759c558a7b5bba82de
+    BlockKey: ItemEvent_ffc80e7b8f7440b8a56826811d94e68c
     Instance: {fileID: 1080953940}
     FieldData:
     - eventExecuted
   - BlockType: 1
-    BlockKey: TriggerObjective_356a26cde05a42f6becd2311c589a515
+    BlockKey: TriggerObjective_2d306f4d8e454c988470566d72d93a06
     Instance: {fileID: 1180785799}
     FieldData:
     - isTriggered
   - BlockType: 1
-    BlockKey: Electricity_bdaf20fbc04f481eb1639e6085df8047
+    BlockKey: Electricity_d964a784eb6c4fb3afef21be59d7670e
     Instance: {fileID: 1241383005}
     FieldData:
     - isPoweredOn
   - BlockType: 1
-    BlockKey: TriggerObjective_12f69c84e88747fda7187dc836290df3
+    BlockKey: TriggerObjective_a9e387c56fa0411791d7729d0679f031
     Instance: {fileID: 1250493489}
     FieldData:
     - isTriggered
   - BlockType: 1
-    BlockKey: TriggerObjective_781aaedd8639402296a22c72cd3378d9
+    BlockKey: TriggerObjective_747dd3b6129b42abb5545dd041cf4742
     Instance: {fileID: 1288994406}
     FieldData:
     - isTriggered
   - BlockType: 1
-    BlockKey: Electricity_ad2a9acafb98458cb656f4a4e750874c
+    BlockKey: Electricity_85ab22bedbfe48bdaf63fe129bd58b1b
     Instance: {fileID: 1513318791}
     FieldData:
     - isPoweredOn
   - BlockType: 1
-    BlockKey: TriggerObjective_3fcf249e91c3472281c3c104902e0a05
+    BlockKey: TriggerObjective_b17fc8dd87e34f5e8c524c0655765a88
     Instance: {fileID: 1534822026}
     FieldData:
     - isTriggered
   - BlockType: 1
-    BlockKey: TriggerObjective_6fd42a4312384953b5dcc6aeda41953f
+    BlockKey: TriggerObjective_7e7ee9aca66e481d89d9c1fd77a1e3bd
     Instance: {fileID: 1545160142}
     FieldData:
     - isTriggered
   - BlockType: 1
-    BlockKey: TriggerObjective_5e3938889caf460685f2644ecac182df
+    BlockKey: TriggerObjective_8a4ad130c8ae4589bccfa172ff17b3ef
     Instance: {fileID: 1580678806}
     FieldData:
     - isTriggered
   - BlockType: 1
-    BlockKey: TriggerObjective_9e56dfe0c692410b8ee626b0c43128aa
+    BlockKey: TriggerObjective_ab54a40f47824bfe8f358eabc2aa6ca5
     Instance: {fileID: 1585107095}
     FieldData:
     - isTriggered
   - BlockType: 1
-    BlockKey: TriggerObjective_9ce0165efb074334a1b816755ffc69aa
+    BlockKey: TriggerObjective_684c7b0032d946b09425909de4990899
     Instance: {fileID: 1594329960}
     FieldData:
     - isTriggered
   - BlockType: 1
-    BlockKey: Electricity_228e95cd58f94ce9a107f5b743e6e954
+    BlockKey: Electricity_d9a1badeb25240fe8233537cac47e9dd
     Instance: {fileID: 1649815819}
     FieldData:
     - isPoweredOn
   - BlockType: 1
-    BlockKey: TriggerObjective_287d04c2caec4be0b2fa423d36d58d33
+    BlockKey: TriggerObjective_6521950970224f818bb56610548edb4d
     Instance: {fileID: 1652149261}
     FieldData:
     - isTriggered
   - BlockType: 1
-    BlockKey: Electricity_ba6e8ff42bad4b108c04767fc5705f91
+    BlockKey: Electricity_d511052248ef486cb0c4fd6362d47a28
     Instance: {fileID: 1664176047}
     FieldData:
     - isPoweredOn
   - BlockType: 1
-    BlockKey: TriggerObjective_4e3e9a78ad8140bb98eca787230e0c9d
+    BlockKey: TriggerObjective_b7581610c7374023ba1daba22fc035e3
     Instance: {fileID: 1745301821}
     FieldData:
     - isTriggered
   - BlockType: 1
-    BlockKey: TriggerObjective_3d06b63909a34005b83443e8267f9e9c
+    BlockKey: TriggerObjective_1a112493ca814b62baa5985b797ab709
     Instance: {fileID: 1770502459}
     FieldData:
     - isTriggered
   - BlockType: 1
-    BlockKey: TriggerObjective_334572d736024dea9313cd252aaa9b47
+    BlockKey: TriggerObjective_83f18bef5ef145709319913571f55b13
     Instance: {fileID: 1778007864}
     FieldData:
     - isTriggered
   - BlockType: 1
-    BlockKey: TriggerObjective_e056bad3f6be482e9e60892c390ee871
+    BlockKey: TriggerObjective_e8aa12ecbf334c908f9639c4eaf5960e
     Instance: {fileID: 1806753078}
     FieldData:
     - isTriggered
   - BlockType: 1
-    BlockKey: TriggerObjective_624f941da2c446d58817b6abb06e1fad
+    BlockKey: TriggerObjective_813725c8e8544fa8969643a66f42a175
     Instance: {fileID: 1820387974}
     FieldData:
     - isTriggered
   - BlockType: 1
-    BlockKey: TriggerObjective_7d4b89bcd03844d7aaca6ba5e661c96e
+    BlockKey: TriggerObjective_221383a0462f44159382c8ce2abca714
     Instance: {fileID: 1830808149}
     FieldData:
     - isTriggered
   - BlockType: 1
-    BlockKey: TriggerObjective_a52b2f3cda1848609a0f137f8bb10833
+    BlockKey: TriggerObjective_82b38c4b080c48b38d08c05771d04fd5
     Instance: {fileID: 1902928112}
     FieldData:
     - isTriggered
   - BlockType: 1
-    BlockKey: TriggerObjective_0f3e0b97a4ff4609ba3986711ee58f14
+    BlockKey: TriggerObjective_e0614516ea324a9cb66a62e61397f2f9
     Instance: {fileID: 1907588510}
     FieldData:
     - isTriggered
   - BlockType: 1
-    BlockKey: TriggerObjective_77d71cb51bff43feb5e489f106a7ce29
+    BlockKey: TriggerObjective_a2eb6030844e4507bd7c09b7736f9085
     Instance: {fileID: 1942957568}
     FieldData:
     - isTriggered
   - BlockType: 1
-    BlockKey: TriggerObjective_dc421efb7f68469f9760410bb0ff82ba
+    BlockKey: TriggerObjective_545304436c1d465aa7f93ccbb07b0747
     Instance: {fileID: 2071597454}
     FieldData:
     - isTriggered

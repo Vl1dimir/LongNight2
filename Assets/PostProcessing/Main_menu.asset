@@ -30,23 +30,23 @@ MonoBehaviour:
     m_Settings:
       excludeSkybox: 1
   antialiasing:
-    m_Enabled: 0
+    m_Enabled: 1
     m_Settings:
-      method: 0
+      method: 1
       fxaaSettings:
         preset: 2
       taaSettings:
-        jitterSpread: 0.75
+        jitterSpread: 0.975
         sharpen: 0.3
         stationaryBlending: 0.95
         motionBlending: 0.85
   ambientOcclusion:
-    m_Enabled: 0
+    m_Enabled: 1
     m_Settings:
-      intensity: 1
-      radius: 0.3
-      sampleCount: 10
-      downsampling: 1
+      intensity: 2
+      radius: 1
+      sampleCount: 16
+      downsampling: 0
       forceForwardCompatibility: 0
       ambientOnly: 0
       highPrecision: 0
@@ -74,9 +74,9 @@ MonoBehaviour:
     m_Settings:
       focusDistance: 10
       aperture: 5.6
-      focalLength: 50
+      focalLength: 1
       useCameraFov: 0
-      kernelSize: 1
+      kernelSize: 2
   motionBlur:
     m_Enabled: 0
     m_Settings:
@@ -84,10 +84,10 @@ MonoBehaviour:
       sampleCount: 10
       frameBlending: 0
   eyeAdaptation:
-    m_Enabled: 0
+    m_Enabled: 1
     m_Settings:
-      lowPercent: 45
-      highPercent: 95
+      lowPercent: 49.000008
+      highPercent: 99
       minLuminance: -5
       maxLuminance: 1
       keyValue: 0.25
@@ -101,14 +101,14 @@ MonoBehaviour:
     m_Enabled: 1
     m_Settings:
       bloom:
-        intensity: 0.2
+        intensity: 1
         threshold: 0.5
-        softKnee: 0.45
-        radius: 3.85
+        softKnee: 0.835
+        radius: 7
         antiFlicker: 1
       lensDirt:
-        texture: {fileID: 0}
-        intensity: 3
+        texture: {fileID: 2800000, guid: a2960ffde020f27409e070d92fb2e00b, type: 3}
+        intensity: 5
   colorGrading:
     m_Enabled: 1
     m_Settings:
@@ -125,7 +125,7 @@ MonoBehaviour:
         temperature: -4
         tint: 0
         hueShift: 0
-        saturation: 0.85
+        saturation: 0.75
         contrast: 1
       channelMixer:
         red: {x: 1, y: 0, z: 0}
@@ -309,12 +309,12 @@ MonoBehaviour:
     m_Enabled: 1
     m_Settings:
       spectralTexture: {fileID: 0}
-      intensity: 0.1
+      intensity: 0.175
   grain:
     m_Enabled: 1
     m_Settings:
-      colored: 1
-      intensity: 0.35
+      colored: 0
+      intensity: 0.5
       size: 0.3
       luminanceContribution: 0.5
   vignette:
@@ -323,8 +323,8 @@ MonoBehaviour:
       mode: 0
       color: {r: 0, g: 0, b: 0, a: 1}
       center: {x: 0.5, y: 0.5}
-      intensity: 0.675
-      smoothness: 0.188
+      intensity: 0.555
+      smoothness: 1
       roundness: 0
       mask: {fileID: 0}
       opacity: 1

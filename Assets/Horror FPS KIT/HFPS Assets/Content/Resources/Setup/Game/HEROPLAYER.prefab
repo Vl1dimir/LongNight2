@@ -385,6 +385,7 @@ SkinnedMeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -769,8 +770,9 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1398626523}
   m_Enabled: 1
-  serializedVersion: 9
+  serializedVersion: 10
   m_Type: 2
+  m_Shape: 0
   m_Color: {r: 0.8962264, g: 0.84036326, b: 0.7398095, a: 1}
   m_Intensity: 1
   m_Range: 7
@@ -1177,6 +1179,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -2690,6 +2693,7 @@ SkinnedMeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -2883,6 +2887,7 @@ SkinnedMeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -4069,8 +4074,9 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5517061856356299282}
   m_Enabled: 1
-  serializedVersion: 9
+  serializedVersion: 10
   m_Type: 2
+  m_Shape: 0
   m_Color: {r: 1, g: 0.9821501, b: 0.88235295, a: 1}
   m_Intensity: 1
   m_Range: 0.7
@@ -4166,6 +4172,7 @@ SkinnedMeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -4336,6 +4343,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -4599,14 +4607,14 @@ MonoBehaviour:
   LightObject: {fileID: 5553780173622856546}
   audioSource: {fileID: 5599512038403266752}
   ClickSound: {fileID: 8300000, guid: 7ba4c9c390c629b4480f882074795a99, type: 3}
-  batteryLifeInSec: 350
+  batteryLifeInSec: 300
   batteryPercentage: 100
   canReloadPercent: 50
   FlashlightGO: {fileID: 5519019910383892962}
   DrawAnim: FlashlightDraw
-  DrawSpeed: 1.1
+  DrawSpeed: 1.5
   HideAnim: FlashlightHide
-  HideSpeed: 1
+  HideSpeed: 1.5
   ReloadAnim: FlashlightReload
   ReloadSpeed: 1.1
   IdleAnim: FlashlightIdle
@@ -4962,6 +4970,7 @@ SkinnedMeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -5269,6 +5278,7 @@ SkinnedMeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -5442,6 +5452,7 @@ SkinnedMeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -5615,6 +5626,7 @@ SkinnedMeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -5788,6 +5800,7 @@ SkinnedMeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -6238,6 +6251,7 @@ SkinnedMeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -6475,6 +6489,7 @@ SkinnedMeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -6648,6 +6663,7 @@ SkinnedMeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -8282,6 +8298,7 @@ SkinnedMeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -8772,6 +8789,7 @@ SkinnedMeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -10032,6 +10050,7 @@ SkinnedMeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -10354,8 +10373,9 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5517864275425040287}
   m_Enabled: 0
-  serializedVersion: 9
+  serializedVersion: 10
   m_Type: 2
+  m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 1
   m_Range: 2
@@ -10507,8 +10527,9 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5518149277095770578}
   m_Enabled: 1
-  serializedVersion: 9
+  serializedVersion: 10
   m_Type: 2
+  m_Shape: 0
   m_Color: {r: 1, g: 0.9382353, b: 0.8455882, a: 1}
   m_Intensity: 0.5
   m_Range: 6
@@ -10943,6 +10964,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -11342,6 +11364,7 @@ SkinnedMeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -11563,10 +11586,11 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5518435176571448288}
   m_Enabled: 0
-  serializedVersion: 9
+  serializedVersion: 10
   m_Type: 0
+  m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1
+  m_Intensity: 1.5
   m_Range: 18
   m_SpotAngle: 50
   m_InnerSpotAngle: 5
@@ -11655,8 +11679,9 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5518440558306890696}
   m_Enabled: 1
-  serializedVersion: 9
+  serializedVersion: 10
   m_Type: 2
+  m_Shape: 0
   m_Color: {r: 0.8962264, g: 0.84036326, b: 0.7398095, a: 1}
   m_Intensity: 1
   m_Range: 7
@@ -13631,7 +13656,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controller: {fileID: 5579403399743827312}
   scriptManager: {fileID: 5549562599561659310}
-  walkSpeed: 2.75
+  walkSpeed: 2.5
   runSpeed: 6
   crouchSpeed: 2
   proneSpeed: 1
@@ -13664,9 +13689,9 @@ MonoBehaviour:
   groundCheckRadius: 0.43
   cameraAnimations: {fileID: 5557254239776947258}
   runAnimation: CameraRun
-  runAnimSpeed: 0.8
+  runAnimSpeed: 2.25
   walkAnimation: CameraWalk
-  walkAnimSpeed: 0.8
+  walkAnimSpeed: 1.6
   idleAnimation: CameraIdle
   armsAnimations: {fileID: 5557409264360452026}
   armsRunAnimation: ArmsRun
@@ -13808,8 +13833,8 @@ MonoBehaviour:
   lowHealth: 29
   maxRegenerateHealth: 15
   lowHealthSettings: 1
-  lowWalkSpeed: 2.5
-  lowRunSpeed: 5
+  lowWalkSpeed: 2.2
+  lowRunSpeed: 7
   regeneration: 1
   regenerationSpeed: 1
   timeWaitAfterDamage: 5
@@ -13819,7 +13844,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 6d34eb940fd31d348854171c4cb1ee4d, type: 3}
   - {fileID: 8300000, guid: 034f51ce2fa0a5d4ea0f3aa37131e771, type: 3}
   - {fileID: 8300000, guid: 161b326ef350ae145860c681e9910d17, type: 3}
-  Volume: 1
+  Volume: 0.75
   HealthColor: {r: 255, g: 255, b: 255, a: 1}
   AddHealthColor: {r: 0, g: 0.5, b: 0, a: 1}
   LowHealthColor: {r: 0.9, g: 0, b: 0, a: 1}
@@ -14716,8 +14741,6 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-        Culture=neutral, PublicKeyToken=null
 --- !u!1 &5518762423125897096
 GameObject:
   m_ObjectHideFlags: 0
@@ -15381,6 +15404,7 @@ SkinnedMeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -15524,7 +15548,7 @@ MonoBehaviour:
   inventory: {fileID: 0}
   weaponID: 29
   bulletsID: 25
-  bulletsRemaining: 16
+  bulletsRemaining: 4
   bulletsPerMag: 16
   bullets: 0
   layerMask:
@@ -15543,10 +15567,10 @@ MonoBehaviour:
   maxInaccuracyHIP: 5
   maxInaccuracyAIM: 1
   scopeTexture: {fileID: 0}
-  aimPosition: {x: -0.132, y: -1.515, z: -0.28}
+  aimPosition: {x: -0.132, y: -1.515, z: -0.15}
   aimSpeed: 0.25
   zoomSpeed: 5
-  FOV: 40
+  FOV: 55
   shotsPerBurst: 3
   burstTime: 0.07
   pelletsPerShot: 10
@@ -15601,7 +15625,7 @@ MonoBehaviour:
   muzzleFlash: {fileID: 5532627037479233724}
   muzzleLight: {fileID: 5553593491222352074}
   reloading: 0
-  selected: 0
+  selected: 1
 --- !u!1 &5518856797110724830
 GameObject:
   m_ObjectHideFlags: 0
@@ -15718,6 +15742,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -16893,6 +16918,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -16979,6 +17005,7 @@ SkinnedMeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -17216,8 +17243,6 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-        Culture=neutral, PublicKeyToken=null
 --- !u!114 &5549696006596934732
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18399,6 +18424,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -18561,6 +18587,7 @@ SkinnedMeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -18897,6 +18924,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:

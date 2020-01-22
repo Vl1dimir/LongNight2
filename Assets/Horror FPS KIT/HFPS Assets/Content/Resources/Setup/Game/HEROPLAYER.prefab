@@ -13689,9 +13689,9 @@ MonoBehaviour:
   groundCheckRadius: 0.43
   cameraAnimations: {fileID: 5557254239776947258}
   runAnimation: CameraRun
-  runAnimSpeed: 2.25
+  runAnimSpeed: 1
   walkAnimation: CameraWalk
-  walkAnimSpeed: 1.6
+  walkAnimSpeed: 0.8
   idleAnimation: CameraIdle
   armsAnimations: {fileID: 5557409264360452026}
   armsRunAnimation: ArmsRun

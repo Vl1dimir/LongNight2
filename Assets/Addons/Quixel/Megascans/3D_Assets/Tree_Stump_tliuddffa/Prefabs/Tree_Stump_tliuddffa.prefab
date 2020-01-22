@@ -11,13 +11,12 @@ GameObject:
   - component: {fileID: 3575149010196925383}
   - component: {fileID: 564711259193019345}
   - component: {fileID: 3333371311959018288}
-  - component: {fileID: 3217602605617786179}
   m_Layer: 0
   m_Name: tliuddffa_LOD4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3575149010196925383
 Transform:
@@ -55,6 +54,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -79,20 +79,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &3217602605617786179
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 465645994704065148}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 6220791514248022183, guid: 4ccf9459727037745ad328cea0aea12a, type: 3}
 --- !u!1 &746619160960372315
 GameObject:
   m_ObjectHideFlags: 0
@@ -104,13 +90,12 @@ GameObject:
   - component: {fileID: 6520478057975646214}
   - component: {fileID: 4998360725022022078}
   - component: {fileID: 7196263315794520350}
-  - component: {fileID: 1160426751091424303}
   m_Layer: 0
   m_Name: tliuddffa_LOD5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6520478057975646214
 Transform:
@@ -148,6 +133,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -172,20 +158,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &1160426751091424303
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 746619160960372315}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: -1682509249771565764, guid: c6fbb5e0f06ea1347b66272a54fb5c3c, type: 3}
 --- !u!1 &3634692245575543318
 GameObject:
   m_ObjectHideFlags: 0
@@ -197,13 +169,12 @@ GameObject:
   - component: {fileID: 1421135359603726257}
   - component: {fileID: 4939532375874967835}
   - component: {fileID: 4063786034878611388}
-  - component: {fileID: 970539123985159621}
   m_Layer: 0
   m_Name: tliuddffa_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1421135359603726257
 Transform:
@@ -241,6 +212,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -265,20 +237,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &970539123985159621
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3634692245575543318}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 6204478078652005963, guid: 9f8c8a8282b4c56479afffbb3788c2ea, type: 3}
 --- !u!1 &3703887550339216878
 GameObject:
   m_ObjectHideFlags: 0
@@ -290,13 +248,13 @@ GameObject:
   - component: {fileID: 5128000148033046765}
   - component: {fileID: 1917045838135327536}
   - component: {fileID: 9046099053421769237}
-  - component: {fileID: 7304384139171364556}
+  - component: {fileID: 8081920404470268351}
   m_Layer: 0
   m_Name: tliuddffa_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5128000148033046765
 Transform:
@@ -334,6 +292,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -358,7 +317,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &7304384139171364556
+--- !u!64 &8081920404470268351
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -370,7 +329,7 @@ MeshCollider:
   m_Enabled: 1
   serializedVersion: 3
   m_Convex: 0
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 5759142019663922064, guid: 766883e0824196643af6bf26acc74caf, type: 3}
 --- !u!1 &4987315352129118291
 GameObject:
@@ -398,7 +357,7 @@ Transform:
   m_GameObject: {fileID: 4987315352129118291}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3.4992006, y: 3.4992006, z: 3.4992006}
+  m_LocalScale: {x: 3.4992008, y: 3.4992006, z: 3.4992008}
   m_Children:
   - {fileID: 5128000148033046765}
   - {fileID: 1421135359603726257}
@@ -459,13 +418,12 @@ GameObject:
   - component: {fileID: 389847347492097178}
   - component: {fileID: 8693576632691595062}
   - component: {fileID: 5097119909138325020}
-  - component: {fileID: 8034107372147624296}
   m_Layer: 0
   m_Name: tliuddffa_LOD3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &389847347492097178
 Transform:
@@ -503,6 +461,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -527,20 +486,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &8034107372147624296
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8875073923097677822}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: -5416280191715351338, guid: b63673040fd1a4741b25d88ef2a04266, type: 3}
 --- !u!1 &9081882640888793158
 GameObject:
   m_ObjectHideFlags: 0
@@ -552,13 +497,12 @@ GameObject:
   - component: {fileID: 1162498547064002232}
   - component: {fileID: 4734572236104110229}
   - component: {fileID: 2916542530517675483}
-  - component: {fileID: 8800126031373111017}
   m_Layer: 0
   m_Name: tliuddffa_LOD2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1162498547064002232
 Transform:
@@ -596,6 +540,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -620,17 +565,3 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &8800126031373111017
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9081882640888793158}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: -1623078279870599560, guid: e9d2b973bfe8b534f8a24314047ba57c, type: 3}

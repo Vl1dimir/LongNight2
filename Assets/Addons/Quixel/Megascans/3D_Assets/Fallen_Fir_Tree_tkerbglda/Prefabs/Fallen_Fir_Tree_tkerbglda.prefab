@@ -11,13 +11,12 @@ GameObject:
   - component: {fileID: 8829506537571920525}
   - component: {fileID: 2894337887572655274}
   - component: {fileID: 8044607828179705225}
-  - component: {fileID: 7865934806685816484}
   m_Layer: 0
   m_Name: tkerbglda_LOD2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8829506537571920525
 Transform:
@@ -55,6 +54,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -79,20 +79,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &7865934806685816484
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1066788050475084565}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: -9114719952030160850, guid: 5251202e3d55bd94c82ce6a56dbaabe4, type: 3}
 --- !u!1 &2914876312920987043
 GameObject:
   m_ObjectHideFlags: 0
@@ -104,13 +90,13 @@ GameObject:
   - component: {fileID: 5129435086043525554}
   - component: {fileID: 2273802533258085124}
   - component: {fileID: 6951338605112897853}
-  - component: {fileID: 4687265845480114997}
+  - component: {fileID: 1902731388560150168}
   m_Layer: 0
   m_Name: tkerbglda_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5129435086043525554
 Transform:
@@ -148,6 +134,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -172,7 +159,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &4687265845480114997
+--- !u!64 &1902731388560150168
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -184,7 +171,7 @@ MeshCollider:
   m_Enabled: 1
   serializedVersion: 3
   m_Convex: 0
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: -8947169840044043738, guid: 3a85e52a4b0e58d49babc8b4fdb13776, type: 3}
 --- !u!1 &3785289140336007527
 GameObject:
@@ -197,13 +184,12 @@ GameObject:
   - component: {fileID: 6016858069981517547}
   - component: {fileID: 4697086717775464984}
   - component: {fileID: 2161960314918459862}
-  - component: {fileID: 1700785833847720405}
   m_Layer: 0
   m_Name: tkerbglda_LOD3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6016858069981517547
 Transform:
@@ -241,6 +227,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -265,20 +252,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &1700785833847720405
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3785289140336007527}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: -5834795160235564398, guid: 8ac1d9a5b81c59147ab31e1e5943f473, type: 3}
 --- !u!1 &4541215024697292967
 GameObject:
   m_ObjectHideFlags: 0
@@ -366,13 +339,12 @@ GameObject:
   - component: {fileID: 9184649821819499048}
   - component: {fileID: 962176330321441886}
   - component: {fileID: 22974443649719218}
-  - component: {fileID: 6886221013234659822}
   m_Layer: 0
   m_Name: tkerbglda_LOD5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &9184649821819499048
 Transform:
@@ -410,6 +382,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -434,20 +407,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &6886221013234659822
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4931103140604604882}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: -1201755387607612954, guid: 00e3e7a98c2eb3a43859470f5fa0c235, type: 3}
 --- !u!1 &7465934042055686627
 GameObject:
   m_ObjectHideFlags: 0
@@ -459,13 +418,12 @@ GameObject:
   - component: {fileID: 6344369201736721019}
   - component: {fileID: 6120617099748872462}
   - component: {fileID: 7019297000525400770}
-  - component: {fileID: 8290234544932652523}
   m_Layer: 0
   m_Name: tkerbglda_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6344369201736721019
 Transform:
@@ -503,6 +461,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -527,20 +486,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &8290234544932652523
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7465934042055686627}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: -2289058708630968787, guid: 9679b5a99df9b1c4d81781b4e386a745, type: 3}
 --- !u!1 &8142882911489673538
 GameObject:
   m_ObjectHideFlags: 0
@@ -552,13 +497,12 @@ GameObject:
   - component: {fileID: 4509130650873388105}
   - component: {fileID: 4106824691383544776}
   - component: {fileID: 7438642489372345684}
-  - component: {fileID: 8963474849020721869}
   m_Layer: 0
   m_Name: tkerbglda_LOD4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4509130650873388105
 Transform:
@@ -596,6 +540,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -620,17 +565,3 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &8963474849020721869
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8142882911489673538}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: -8711594146888645347, guid: d720db2832b01f640b3c0cdb7d1db5ea, type: 3}

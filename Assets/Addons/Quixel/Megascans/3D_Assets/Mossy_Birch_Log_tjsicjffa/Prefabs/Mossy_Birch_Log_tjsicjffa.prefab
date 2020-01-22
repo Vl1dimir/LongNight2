@@ -11,13 +11,12 @@ GameObject:
   - component: {fileID: 391596106594043878}
   - component: {fileID: 1989656702735213419}
   - component: {fileID: 4883834510048095221}
-  - component: {fileID: 515230698727818915}
   m_Layer: 0
   m_Name: tjsicjffa_LOD3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &391596106594043878
 Transform:
@@ -55,6 +54,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -79,20 +79,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &515230698727818915
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 726132629988401109}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 1
-  m_CookingOptions: 14
-  m_Mesh: {fileID: -1547022122393529481, guid: 048c3f30e61e2434c8f5f1a254fc6137, type: 3}
 --- !u!1 &731735661789039169
 GameObject:
   m_ObjectHideFlags: 0
@@ -104,13 +90,12 @@ GameObject:
   - component: {fileID: 9032303139978150541}
   - component: {fileID: 8445970538275272785}
   - component: {fileID: 134033519458999066}
-  - component: {fileID: 6827783281153855041}
   m_Layer: 0
   m_Name: tjsicjffa_LOD5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &9032303139978150541
 Transform:
@@ -148,6 +133,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -172,20 +158,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &6827783281153855041
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 731735661789039169}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 1
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 1263904170776493207, guid: 7141a63b7a134b54e8cc7b6750da0b3f, type: 3}
 --- !u!1 &2553476713103011138
 GameObject:
   m_ObjectHideFlags: 0
@@ -197,13 +169,12 @@ GameObject:
   - component: {fileID: 1512414301594731333}
   - component: {fileID: 1321978713952347414}
   - component: {fileID: 2316839301734117947}
-  - component: {fileID: 823482142814516619}
   m_Layer: 0
   m_Name: tjsicjffa_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1512414301594731333
 Transform:
@@ -241,6 +212,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -265,20 +237,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &823482142814516619
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2553476713103011138}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 1
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 6016958700966127703, guid: 7d62b80d6c01ea14599271c21815c563, type: 3}
 --- !u!1 &3870182809642096711
 GameObject:
   m_ObjectHideFlags: 0
@@ -305,7 +263,7 @@ Transform:
   m_GameObject: {fileID: 3870182809642096711}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 7.038723, y: 7.0387225, z: 7.03872}
   m_Children:
   - {fileID: 506379288637605915}
   - {fileID: 1512414301594731333}
@@ -366,13 +324,12 @@ GameObject:
   - component: {fileID: 5679444240669867598}
   - component: {fileID: 8010385308128689795}
   - component: {fileID: 8075810313357474675}
-  - component: {fileID: 8240793255453484451}
   m_Layer: 0
   m_Name: tjsicjffa_LOD2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5679444240669867598
 Transform:
@@ -410,6 +367,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -434,20 +392,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &8240793255453484451
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4711055658091179348}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 1
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 2755132660872590202, guid: 2de2f40f9304f7c47b62f5f89fc1fc3d, type: 3}
 --- !u!1 &4779260264538142239
 GameObject:
   m_ObjectHideFlags: 0
@@ -459,13 +403,12 @@ GameObject:
   - component: {fileID: 2360222494065775167}
   - component: {fileID: 3285937942927325956}
   - component: {fileID: 7732572234483238534}
-  - component: {fileID: 1616413905873293104}
   m_Layer: 0
   m_Name: tjsicjffa_LOD4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2360222494065775167
 Transform:
@@ -503,6 +446,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -527,20 +471,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &1616413905873293104
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4779260264538142239}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 1
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 6340535884469147284, guid: f877202f6a1f8414c9e80146c9c0d195, type: 3}
 --- !u!1 &5051468278119019267
 GameObject:
   m_ObjectHideFlags: 0
@@ -552,13 +482,13 @@ GameObject:
   - component: {fileID: 506379288637605915}
   - component: {fileID: 2381879019511539024}
   - component: {fileID: 640342190444953091}
-  - component: {fileID: 893475474146917772}
+  - component: {fileID: 7689795443594601007}
   m_Layer: 0
   m_Name: tjsicjffa_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &506379288637605915
 Transform:
@@ -596,6 +526,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -620,7 +551,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &893475474146917772
+--- !u!64 &7689795443594601007
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -632,5 +563,5 @@ MeshCollider:
   m_Enabled: 1
   serializedVersion: 3
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: -2217141539015760439, guid: aa33e9e2bea2d5845a871033aac9c52b, type: 3}

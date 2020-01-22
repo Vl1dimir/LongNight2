@@ -26,7 +26,7 @@ Transform:
   m_GameObject: {fileID: 567037720178912958}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 8.899998, y: 8.9, z: 8.899998}
+  m_LocalScale: {x: 8.900018, y: 12.459999, z: 8.900018}
   m_Children:
   - {fileID: 8678594194640948593}
   - {fileID: 2384106161175921944}
@@ -87,13 +87,12 @@ GameObject:
   - component: {fileID: 5440472393617008589}
   - component: {fileID: 5497270680479413051}
   - component: {fileID: 2912651478126897625}
-  - component: {fileID: 8774966549194975613}
   m_Layer: 0
   m_Name: Aset_rock_granite_L_rgfoh_LOD5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5440472393617008589
 Transform:
@@ -131,6 +130,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -155,20 +155,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &8774966549194975613
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 854845093316410367}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 1
-  m_CookingOptions: 14
-  m_Mesh: {fileID: -8805667985951634032, guid: cc6a5f2f077bf2d41806509a7a5b57ca, type: 3}
 --- !u!1 &1373286926354659786
 GameObject:
   m_ObjectHideFlags: 0
@@ -180,13 +166,13 @@ GameObject:
   - component: {fileID: 8678594194640948593}
   - component: {fileID: 4437440776663583345}
   - component: {fileID: 5236218061923891252}
-  - component: {fileID: 3556975428239896662}
+  - component: {fileID: 528940112501189516}
   m_Layer: 0
   m_Name: Aset_rock_granite_L_rgfoh_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8678594194640948593
 Transform:
@@ -224,6 +210,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -248,7 +235,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &3556975428239896662
+--- !u!64 &528940112501189516
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -259,8 +246,8 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 1
-  m_CookingOptions: 14
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: 623120352437549820, guid: bd9442314e862394ea8e88ab10159660, type: 3}
 --- !u!1 &3607383915470821446
 GameObject:
@@ -273,13 +260,12 @@ GameObject:
   - component: {fileID: 4606798480480212552}
   - component: {fileID: 6265490235658798620}
   - component: {fileID: 3075158147837860929}
-  - component: {fileID: 3155084572085899312}
   m_Layer: 0
   m_Name: Aset_rock_granite_L_rgfoh_LOD3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4606798480480212552
 Transform:
@@ -317,6 +303,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -341,20 +328,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &3155084572085899312
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3607383915470821446}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 1
-  m_CookingOptions: 14
-  m_Mesh: {fileID: -5110624858560978872, guid: 1bce148fed12ca04194b3295c731a2a0, type: 3}
 --- !u!1 &8129088780794772834
 GameObject:
   m_ObjectHideFlags: 0
@@ -366,13 +339,12 @@ GameObject:
   - component: {fileID: 5020688439697716828}
   - component: {fileID: 8227166433907732162}
   - component: {fileID: 7789571700504584377}
-  - component: {fileID: 4978852899364435530}
   m_Layer: 0
   m_Name: Aset_rock_granite_L_rgfoh_LOD4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5020688439697716828
 Transform:
@@ -410,6 +382,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -434,20 +407,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &4978852899364435530
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8129088780794772834}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 1
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 1569561798602082434, guid: 1d38caef703b56e41b063c3db785979c, type: 3}
 --- !u!1 &8500741944468476369
 GameObject:
   m_ObjectHideFlags: 0
@@ -459,13 +418,12 @@ GameObject:
   - component: {fileID: 2384106161175921944}
   - component: {fileID: 4278631919268335531}
   - component: {fileID: 2989046792338695370}
-  - component: {fileID: 3426015798625643322}
   m_Layer: 0
   m_Name: Aset_rock_granite_L_rgfoh_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2384106161175921944
 Transform:
@@ -503,6 +461,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -527,20 +486,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &3426015798625643322
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8500741944468476369}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 1
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 5482416845768838410, guid: b03de3c9444e7d945a0364b9e66eff5b, type: 3}
 --- !u!1 &9200689138258815245
 GameObject:
   m_ObjectHideFlags: 0
@@ -552,13 +497,12 @@ GameObject:
   - component: {fileID: 7815583682352963004}
   - component: {fileID: 5622587728728606515}
   - component: {fileID: 4163452466441659980}
-  - component: {fileID: 6955167328082172841}
   m_Layer: 0
   m_Name: Aset_rock_granite_L_rgfoh_LOD2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7815583682352963004
 Transform:
@@ -596,6 +540,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -620,17 +565,3 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &6955167328082172841
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9200689138258815245}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 1
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 1101907815610210593, guid: 6d67877d2ff9cd844bd09c1d819c47c5, type: 3}

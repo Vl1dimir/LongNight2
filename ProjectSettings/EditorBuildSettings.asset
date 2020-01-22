@@ -17,6 +17,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Prologue_Objects.unity
     guid: f7138df35a05f7040adc12df35d4cf74
+  - enabled: 1
+    path: Assets/Prologue_Objects_2.unity
+    guid: 62b11f8b74b7ef04f81c278874004676
   - enabled: 0
     path: Assets/Scenes/Showcase.unity
     guid: 4ed8efcdce25b5e49bc925153166e9d0

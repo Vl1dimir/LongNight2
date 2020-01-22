@@ -16628,6 +16628,7 @@ GameObject:
   - component: {fileID: 599161408}
   - component: {fileID: 599161409}
   - component: {fileID: 599161410}
+  - component: {fileID: 1504254854}
   m_Layer: 17
   m_Name: MainCamera
   m_TagString: MainCamera
@@ -16863,6 +16864,21 @@ MonoBehaviour:
   DomePosOffset: {x: 0, y: 0, z: 0}
   DomeScaleToFarClip: 1
   DomeScaleFactor: 0.95
+--- !u!114 &1504254854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5519000158689588564}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34382083ad114a07d000fbfb8d76c639, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  iterations: 6
+  blurSpread: 0.05
+  blurShader: {fileID: 4800000, guid: 57e6deea7c2924e22a5138e2b70bb4dc, type: 3}
 --- !u!1 &5519000432583869816
 GameObject:
   m_ObjectHideFlags: 0

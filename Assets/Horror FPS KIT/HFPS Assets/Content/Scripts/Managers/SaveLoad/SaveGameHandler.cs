@@ -66,53 +66,57 @@ public class SaveGameHandler : Singleton<SaveGameHandler> {
 
         JsonManager.Settings(SaveLoadSettings, true);
 
-        if (saveableDataPairs.Any(pair => pair.Instance == null))
-        {
-            Debug.LogError("[SaveGameHandler] Some of Saveable Instances are missing or it's destroyed. Please select Setup SaveGame again from the Tools menu!");
-            return;
-        }
 
-        if (Prefs.Exist(Prefs.LOAD_STATE))
+        HFPS_GameManager.Instance.OnSceneLoaded += () =>
         {
-            int loadstate = Prefs.Game_LoadState();
-
-            if(loadstate == 0)
+            if (saveableDataPairs.Any(pair => pair.Instance == null))
             {
-                DeleteNextLvlData();
+                Debug.LogError("[SaveGameHandler] Some of Saveable Instances are missing or it's destroyed. Please select Setup SaveGame again from the Tools menu!");
+                return;
             }
-            else if (loadstate == 1 && Prefs.Exist(Prefs.LOAD_SAVE_NAME))
+
+            if (Prefs.Exist(Prefs.LOAD_STATE))
             {
-                string filename = Prefs.Game_SaveName();
+                int loadstate = Prefs.Game_LoadState();
 
-                if (File.Exists(JsonManager.GetFilePath(FilePath.GameSavesPath) + filename))
+                if (loadstate == 0)
                 {
-                    JsonManager.DeserializeData(filename);
-                    string loadScene = (string)JsonManager.Json()["scene"];
-                    lastSave = filename;
+                    DeleteNextLvlData();
+                }
+                else if (loadstate == 1 && Prefs.Exist(Prefs.LOAD_SAVE_NAME))
+                {
+                    string filename = Prefs.Game_SaveName();
 
-                    if (UnityEngine.SceneManagement.SceneManager.GetActiveScene().name == loadScene)
+                    if (File.Exists(JsonManager.GetFilePath(FilePath.GameSavesPath) + filename))
                     {
-                        LoadSavedSceneData(true);
+                        JsonManager.DeserializeData(filename);
+                        string loadScene = (string)JsonManager.Json()["scene"];
+                        lastSave = filename;
+
+                        if (HFPS_GameManager.Instance.CurrentStack.Name == loadScene)
+                        {
+                            LoadSavedSceneData(true);
+                        }
+                    }
+                    else
+                    {
+                        Debug.Log("<color=yellow>[SaveGameHandler]</color> Could not find load file: " + filename);
+                        Prefs.Game_LoadState(0);
                     }
                 }
-                else
+                else if (loadstate == 2 && Prefs.Exist(Prefs.LOAD_SAVE_NAME) && dataBetweenScenes)
                 {
-                    Debug.Log("<color=yellow>[SaveGameHandler]</color> Could not find load file: " + filename);
-                    Prefs.Game_LoadState(0);
-                }
-            }
-            else if(loadstate == 2 && Prefs.Exist(Prefs.LOAD_SAVE_NAME) && dataBetweenScenes)
-            {
-                JsonManager.ClearArray();
-                Prefs.Game_SaveName("_NextSceneData.sav");
+                    JsonManager.ClearArray();
+                    Prefs.Game_SaveName("_NextSceneData.sav");
 
-                if (File.Exists(JsonManager.GetFilePath(FilePath.GameDataPath) + "_NextSceneData.sav"))
-                {
-                    JsonManager.DeserializeData(FilePath.GameDataPath, "_NextSceneData.sav");
-                    LoadSavedSceneData(false);
+                    if (File.Exists(JsonManager.GetFilePath(FilePath.GameDataPath) + "_NextSceneData.sav"))
+                    {
+                        JsonManager.DeserializeData(FilePath.GameDataPath, "_NextSceneData.sav");
+                        LoadSavedSceneData(false);
+                    }
                 }
             }
-        }
+        };
     }
 
     void DeleteNextLvlData()
@@ -135,7 +139,7 @@ public class SaveGameHandler : Singleton<SaveGameHandler> {
         /* PLAYER PAIRS */
         if (allData)
         {
-            JsonManager.AddPair("scene", UnityEngine.SceneManagement.SceneManager.GetActiveScene().name);
+            JsonManager.AddPair("scene", HFPS_GameManager.Instance.CurrentStack.Name);
             JsonManager.AddPair("dateTime", DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"));
 
             playerData.Add("playerPosition", player.transform.position);

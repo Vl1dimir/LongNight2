@@ -22,12 +22,18 @@ public enum hideType
 /// </summary>
 public class HFPS_GameManager : Singleton<HFPS_GameManager> {
 
-    private ConfigHandler configHandler;
 
+    public event System.Action OnSceneLoaded;
+
+    private ConfigHandler configHandler;
+        
     private PostProcessVolume postProcessing;
     private ColorGrading colorGrading;
 
     [Header("Main")]
+    [SerializeField]
+    private LoadStack currentStack;
+
     public GameObject Player;
     public string m_sceneLoader;
 
@@ -165,6 +171,14 @@ public class HFPS_GameManager : Singleton<HFPS_GameManager> {
 
     [HideInInspector]
     public bool ConfigError;
+
+    public LoadStack CurrentStack => currentStack;
+
+
+    public void OnSceneLoadedInvoke()
+    {
+        OnSceneLoaded?.Invoke();
+    }
 
     void Awake()
     {
@@ -1012,7 +1026,19 @@ public class HFPS_GameManager : Singleton<HFPS_GameManager> {
             saveHandler.fadeControl.FadeIn();
         }
 
-        StartCoroutine(LoadScene(SceneManager.GetActiveScene().name, 1));
+       // ThunderWire.JsonManager.JsonManager.DeserializeData(saveHandler.lastSave);
+       //
+      //  string scene = (string)ThunderWire.JsonManager.JsonManager.Json()["scene"];
+
+        Prefs.Game_LoadState(1);
+        Prefs.Game_SaveName(saveHandler.lastSave);
+        Prefs.Game_LevelName(currentStack.Name);
+
+        SceneManager.LoadScene(1);
+
+       // saveHandler.lastSave
+
+        StartCoroutine(LoadScene(currentStack.Name, 1));
     }
 
     private IEnumerator LoadScene(string scene, int loadstate)

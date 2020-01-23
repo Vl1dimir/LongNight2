@@ -69,8 +69,13 @@ public class InteractiveItem : MonoBehaviour, ISaveable {
 
     public CustomItemData customData;
 
+    private Rigidbody rigidbody;
+
     void Awake()
     {
+        rigidbody = GetComponent<Rigidbody>();
+        if(rigidbody != null)
+            rigidbody.useGravity = false;
         CreateCustomData();
     }
 
@@ -166,5 +171,7 @@ public class InteractiveItem : MonoBehaviour, ISaveable {
         WeaponID = (int)token["weapon_id"];
         customData = token["customData"].ToObject<CustomItemData>();
         DisableObject(token["isDisabled"].ToObject<bool>());
+        if (rigidbody != null)
+            rigidbody.useGravity = true;
     }
 }

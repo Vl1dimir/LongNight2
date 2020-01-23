@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ec8407f538a64a48a3fa59fe60162ec, type: 3}
+  m_Name: Prologue
+  m_EditorClassIdentifier: 
+  stackName: Prologue
+  sceneDescription: cxvc
+  background: {fileID: 21300000, guid: e3f822a1b721f7b43ae3937580686a15, type: 3}
+  scenesAssets:
+  - {fileID: 102900000, guid: 9c1e1ef0d125341449211600dac25344, type: 3}
+  - {fileID: 102900000, guid: f7138df35a05f7040adc12df35d4cf74, type: 3}
+  - {fileID: 102900000, guid: 62b11f8b74b7ef04f81c278874004676, type: 3}
+  scenes:
+  - TheHouse Demo
+  - Prologue_Objects
+  - Prologue_Objects_2

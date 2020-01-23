@@ -22762,5 +22762,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MENUMANAGER
       objectReference: {fileID: 0}
+    - target: {fileID: 6595514806391547209, guid: 6ffdbd1878dd5ec4e874dfc313df5db4,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: Prologue
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6ffdbd1878dd5ec4e874dfc313df5db4, type: 3}

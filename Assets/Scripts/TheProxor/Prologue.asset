@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Prologue
   m_EditorClassIdentifier: 
   stackName: Prologue
-  sceneDescription: cxvc
-  background: {fileID: 21300000, guid: e3f822a1b721f7b43ae3937580686a15, type: 3}
+  sceneDescription: Be prepared...
+  background: {fileID: 21300000, guid: 0dd03bb2cf010e348bbec33569c190ee, type: 3}
   scenesAssets:
   - {fileID: 102900000, guid: 9c1e1ef0d125341449211600dac25344, type: 3}
   - {fileID: 102900000, guid: f7138df35a05f7040adc12df35d4cf74, type: 3}

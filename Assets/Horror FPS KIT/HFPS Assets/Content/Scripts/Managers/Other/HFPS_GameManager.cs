@@ -168,6 +168,7 @@ public class HFPS_GameManager : Singleton<HFPS_GameManager> {
     private bool isOverlapping;
     private bool isPressed;
     private bool antiSpam;
+    public bool IsLoaded { get; set; }
 
     [HideInInspector]
     public bool ConfigError;
@@ -177,6 +178,7 @@ public class HFPS_GameManager : Singleton<HFPS_GameManager> {
 
     public void OnSceneLoadedInvoke()
     {
+        IsLoaded = true;
         OnSceneLoaded?.Invoke();
     }
 

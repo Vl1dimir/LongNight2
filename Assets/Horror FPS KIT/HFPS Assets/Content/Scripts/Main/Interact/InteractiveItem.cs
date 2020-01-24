@@ -73,15 +73,27 @@ public class InteractiveItem : MonoBehaviour, ISaveable {
 
     void Awake()
     {
-        rigidbody = GetComponent<Rigidbody>();
-        if(rigidbody != null)
-            rigidbody.useGravity = false;
+        if (HFPS_GameManager.Instance == null || !HFPS_GameManager.Instance.IsLoaded)
+        {
+            rigidbody = GetComponent<Rigidbody>();
+            if (rigidbody != null)
+                rigidbody.useGravity = false;
+
+        }
         CreateCustomData();
     }
 
     void Start()
     {
         audioSource = ScriptManager.Instance.SoundEffects;
+
+        HFPS_GameManager.Instance.OnSceneLoaded += () =>
+        {
+            if (rigidbody != null)
+                rigidbody.useGravity = true;
+            else
+                Debug.LogError(transform.name);
+        };
     }
 
     public void CreateCustomData()
@@ -171,7 +183,5 @@ public class InteractiveItem : MonoBehaviour, ISaveable {
         WeaponID = (int)token["weapon_id"];
         customData = token["customData"].ToObject<CustomItemData>();
         DisableObject(token["isDisabled"].ToObject<bool>());
-        if (rigidbody != null)
-            rigidbody.useGravity = true;
     }
 }

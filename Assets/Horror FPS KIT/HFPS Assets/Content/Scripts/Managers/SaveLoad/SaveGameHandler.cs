@@ -249,12 +249,15 @@ public class SaveGameHandler : Singleton<SaveGameHandler> {
         {
             foreach (var Pair in saveableDataPairs)
             {
-                if(Pair.BlockType == SaveableDataPair.DataBlockType.ISaveable)
+                if (Pair.BlockType == SaveableDataPair.DataBlockType.ISaveable)
                 {
-                    var data = (Pair.Instance as ISaveable).OnSave();
-                    if (data != null)
+                    if (Pair.Instance != null)
                     {
-                        JsonManager.AddPair(Pair.BlockKey, data);
+                        var data = (Pair.Instance as ISaveable).OnSave();
+                        if (data != null)
+                        {
+                            JsonManager.AddPair(Pair.BlockKey, data);
+                        }
                     }
                 }
                 else if (Pair.BlockType == SaveableDataPair.DataBlockType.Attribute)

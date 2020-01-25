@@ -34,6 +34,8 @@ public class InventoryItemData : MonoBehaviour, IBeginDragHandler, IDragHandler,
     private Vector2 offset;
     private bool itemDrag;
 
+    public GameObject instanceObject;
+
 	void Start()
 	{
         inventory = transform.root.GetComponent<Inventory>();
@@ -114,4 +116,6 @@ public class CustomItemData
     public string storedTexPath = "";
     public bool canUse = true;
     public bool canCombine = true;
+    public Vector3 position;
+    public Quaternion rotation;
 }

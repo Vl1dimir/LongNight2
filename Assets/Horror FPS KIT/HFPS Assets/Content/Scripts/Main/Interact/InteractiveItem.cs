@@ -71,14 +71,13 @@ public class InteractiveItem : MonoBehaviour, ISaveable {
 
     private Rigidbody rigidbody;
 
+    private float trueY = float.PositiveInfinity;
+
     void Awake()
     {
         if (HFPS_GameManager.Instance == null || !HFPS_GameManager.Instance.IsLoaded)
         {
-            rigidbody = GetComponent<Rigidbody>();
-            if (rigidbody != null)
-                rigidbody.useGravity = false;
-
+            trueY = transform.position.y;
         }
         CreateCustomData();
     }
@@ -89,12 +88,11 @@ public class InteractiveItem : MonoBehaviour, ISaveable {
 
         HFPS_GameManager.Instance.OnSceneLoaded += () =>
         {
-            if (rigidbody != null)
-                rigidbody.useGravity = true;
-            else
-                Debug.LogError(transform.name);
+            if (trueY != float.PositiveInfinity)
+                transform.position = new Vector3(transform.position.x, trueY, transform.position.z);
         };
     }
+
 
     public void CreateCustomData()
     {
@@ -102,7 +100,9 @@ public class InteractiveItem : MonoBehaviour, ISaveable {
         {
             itemTag = CustomTag,
             storedValue = CustomValue,
-            storedTexPath = CustomPath
+            storedTexPath = CustomPath,
+            position = transform.position,
+            rotation = transform.rotation,
         };
     }
 
@@ -117,15 +117,11 @@ public class InteractiveItem : MonoBehaviour, ISaveable {
             audioSource.Play();
         }
 
-        if (GetComponent<ItemEvent>())
-        {
-            GetComponent<ItemEvent>().DoEvent();
-        }
+        var itemEvent = GetComponent<ItemEvent>();
+        itemEvent?.DoEvent();
 
-        if (GetComponent<TriggerObjective>())
-        {
-            GetComponent<TriggerObjective>().OnTrigger();
-        }
+        var trigger = GetComponent<TriggerObjective>();
+        trigger?.OnTrigger();
 
         if(disableType == DisableType.Destroy)
         {
@@ -161,8 +157,31 @@ public class InteractiveItem : MonoBehaviour, ISaveable {
         }
     }
 
+    public void EnableObject()
+    {
+        if (GetComponent<Rigidbody>())
+        {
+            GetComponent<Rigidbody>().collisionDetectionMode = CollisionDetectionMode.ContinuousDynamic;
+            GetComponent<Rigidbody>().useGravity = true;
+            GetComponent<Rigidbody>().isKinematic = false;
+        }
+
+        GetComponent<MeshRenderer>().enabled = true;
+        GetComponent<Collider>().enabled = true;
+
+        if (transform.childCount > 0)
+        {
+            foreach (Transform child in transform.transform)
+            {
+                child.gameObject.SetActive(true);
+            }
+        }
+    }
+
     public Dictionary<string, object> OnSave()
     {
+        customData.position = transform.position;
+        customData.rotation = transform.rotation;
         if (GetComponent<MeshRenderer>())
         {
             return new Dictionary<string, object>()
@@ -182,6 +201,8 @@ public class InteractiveItem : MonoBehaviour, ISaveable {
         InventoryID = (int)token["inv_id"];
         WeaponID = (int)token["weapon_id"];
         customData = token["customData"].ToObject<CustomItemData>();
+        transform.position = customData.position;
+        transform.rotation = customData.rotation;
         DisableObject(token["isDisabled"].ToObject<bool>());
     }
 }

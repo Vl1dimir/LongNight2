@@ -94,7 +94,7 @@ public class SceneLoaderAdditive : MonoBehaviour
 
     IEnumerator LoadScene(LoadStack stack)
     {
-        yield return new WaitForSeconds(timeBeforeLoad);
+        yield return new WaitForSeconds(1);
 
         AsyncOperation[] operations = new AsyncOperation[stack.Scenes.Length];
 

@@ -861,7 +861,7 @@ public class Inventory : Singleton<Inventory> {
     /// <summary>
     /// Function to add new item
     /// </summary>
-    public void AddItem(int itemID, int amount, CustomItemData customData = null)
+    public void AddItem(int itemID, int amount, CustomItemData customData = null, GameObject instance = null)
     {
         Item itemToAdd = GetItem(itemID);
         CustomItemData data = new CustomItemData();
@@ -871,6 +871,7 @@ public class Inventory : Singleton<Inventory> {
             if (itemToAdd.isStackable && CheckItemInventory(itemToAdd.ID) && GetItemData(itemToAdd.ID) != null)
             {
                 InventoryItemData itemData = GetItemData(itemToAdd.ID);
+                itemData.instanceObject = instance;
                 itemData.m_amount += amount;
             }
             else
@@ -881,6 +882,7 @@ public class Inventory : Singleton<Inventory> {
                     {
                         GameObject item = Instantiate(inventoryItem, Slots[i].transform);
                         InventoryItemData itemData = item.GetComponent<InventoryItemData>();
+                        itemData.instanceObject = instance;
                         itemData.item = itemToAdd;
                         itemData.m_amount = amount;
                         itemData.slotID = i;
@@ -1214,12 +1216,22 @@ public class Inventory : Singleton<Inventory> {
 
         if (GetItemAmount(item.ID) >= 2 && item.itemType != ItemType.Weapon)
         {
-            worldItem = Instantiate(item.packDropObject, dropPos.position, dropPos.rotation);
+            if (itemData.instanceObject != null)
+            {
+                worldItem = itemData.instanceObject;
+                itemData.instanceObject.transform.position = dropPos.position;
+                itemData.instanceObject.transform.rotation = dropPos.rotation;
+                itemData.customData.rotation = dropPos.rotation;
+                itemData.customData.position = dropPos.position;
+            }
+            else
+                worldItem = Instantiate(item.packDropObject, dropPos.position, dropPos.rotation);
             worldItem.name = "PackDrop_" + dropObject.name;
 
             if (worldItem.GetComponent<InteractiveItem>())
             {
                 interactiveItem = worldItem.GetComponent<InteractiveItem>();
+                interactiveItem.EnableObject();
             }
 
             if (interactiveItem)
@@ -1244,7 +1256,16 @@ public class Inventory : Singleton<Inventory> {
         }
         else if(GetItemAmount(item.ID) == 1 || item.itemType == ItemType.Weapon)
         {
-            worldItem = Instantiate(dropObject, dropPos.position, dropPos.rotation);
+            if (itemData.instanceObject != null)
+            {
+                worldItem = itemData.instanceObject;
+                itemData.instanceObject.transform.position = dropPos.position;
+                itemData.instanceObject.transform.rotation = dropPos.rotation;
+                itemData.customData.position = dropPos.position;
+                itemData.customData.rotation = dropPos.rotation;
+            }
+            else
+                worldItem = Instantiate(dropObject, dropPos.position, dropPos.rotation);
             worldItem.name = "Drop_" + dropObject.name;
 
             if(itemData.customData.storedTexPath != string.Empty)
@@ -1256,6 +1277,7 @@ public class Inventory : Singleton<Inventory> {
             if (worldItem.GetComponent<InteractiveItem>())
             {
                 interactiveItem = worldItem.GetComponent<InteractiveItem>();
+                interactiveItem.EnableObject();
             }
         }
 

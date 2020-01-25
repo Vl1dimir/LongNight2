@@ -129,13 +129,13 @@ public class SaveGameMenu : EditorWindow
                                   where attr.Count() > 0
                                   select new SaveableDataPair(SaveableDataPair.DataBlockType.Attribute, key, Instance, attr);
 
-            SaveableDataPair[] pairs = saveablesQuery.Union(attributesQuery).ToArray();
+            var pairs = saveablesQuery.Union(attributesQuery);
             stopwatch.Stop();
 
-            handler.saveableDataPairs = pairs;
+            handler.saveableDataPairs = pairs.ToArray();
             EditorUtility.SetDirty(handler);
 
-            Debug.Log("<color=green>[Setup SaveGame Successful]</color> Found Saveable Objects: " + pairs.Length + ", Time Elapsed: " + stopwatch.ElapsedMilliseconds + "ms");
+            Debug.Log("<color=green>[Setup SaveGame Successful]</color> Found Saveable Objects: " + pairs.Count() + ", Time Elapsed: " + stopwatch.ElapsedMilliseconds + "ms");
         }
         else
         {

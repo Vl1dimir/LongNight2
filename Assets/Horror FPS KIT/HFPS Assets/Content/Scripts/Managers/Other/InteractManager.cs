@@ -419,7 +419,7 @@ public class InteractManager : MonoBehaviour {
                 {
                     if (inventory.GetItemAmount(item.ID) < item.maxItemCount || item.maxItemCount == 0)
                     {
-                        inventory.AddItem(interactiveItem.InventoryID, interactiveItem.Amount, interactiveItem.customData);
+                        inventory.AddItem(interactiveItem.InventoryID, interactiveItem.Amount, interactiveItem.customData, InteractObject);
                         InteractEvent(InteractObject);
                     }
                     else if (inventory.GetItemAmount(item.ID) >= item.maxItemCount)
@@ -440,7 +440,7 @@ public class InteractManager : MonoBehaviour {
                 {
                     if (inventory.GetItemAmount(item.ID) < item.maxItemCount || item.maxItemCount == 0)
                     {
-                        inventory.AddItem(interactiveItem.InventoryID, interactiveItem.Amount);
+                        inventory.AddItem(interactiveItem.InventoryID, interactiveItem.Amount, instance: InteractObject);
 
                         if (interactiveItem.pickupSwitch)
                         {

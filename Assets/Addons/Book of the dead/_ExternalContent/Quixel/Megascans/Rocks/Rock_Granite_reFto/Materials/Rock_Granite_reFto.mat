@@ -301,7 +301,7 @@ Material:
     - _BillboardMode: 0
     - _BillboardShadowMode: 0
     - _BlendMode: 0
-    - _BumpScale: 0.25
+    - _BumpScale: 0.125
     - _CoatCoverage: 1
     - _CoatIOR: 0.5
     - _CoatMask: 0

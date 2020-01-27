@@ -2300,8 +2300,8 @@ MonoBehaviour:
   stoppingDistance: 1
   changeStateDistance: 1.5
   seeDistance: 15
-  chaseDistance: 1
-  chaseAttackDistance: 2
+  chaseDistance: 2
+  chaseAttackDistance: 1
   attackDistance: 1.7
   attractionDistance: 13
   patrolPointDetect: 2.5

@@ -1,0 +1,255 @@
+fileFormatVersion: 2
+guid: 3d69b5c75e219fb49ae81cddf61e79c3
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: body 1
+    100002: body 1 collider
+    100004: body 2
+    100006: body 2 collider
+    100008: detail 1
+    100010: detail 2
+    100012: detail 3
+    100014: detail 4
+    100016: door 1
+    100018: door 2
+    100020: door 3
+    100022: door 4
+    100024: door 5
+    100026: door 6
+    100028: door back
+    100030: glass end
+    100032: glass front
+    100034: glass l1
+    100036: glass l2
+    100038: glass l3
+    100040: glass r1
+    100042: glass r2
+    100044: glass r3
+    100046: //RootNode
+    100048: mirror l
+    100050: mirror r
+    100052: wheel 1
+    100054: wheel 2
+    100056: wheel 3
+    100058: wheel 4
+    100060: wheel 5
+    100062: wheel 6
+    100064: wheel back
+    100066: wheel metal
+    400000: body 1
+    400002: body 1 collider
+    400004: body 2
+    400006: body 2 collider
+    400008: detail 1
+    400010: detail 2
+    400012: detail 3
+    400014: detail 4
+    400016: door 1
+    400018: door 2
+    400020: door 3
+    400022: door 4
+    400024: door 5
+    400026: door 6
+    400028: door back
+    400030: glass end
+    400032: glass front
+    400034: glass l1
+    400036: glass l2
+    400038: glass l3
+    400040: glass r1
+    400042: glass r2
+    400044: glass r3
+    400046: //RootNode
+    400048: mirror l
+    400050: mirror r
+    400052: wheel 1
+    400054: wheel 2
+    400056: wheel 3
+    400058: wheel 4
+    400060: wheel 5
+    400062: wheel 6
+    400064: wheel back
+    400066: wheel metal
+    2100000: uaz_1_MI_Uaz01
+    2100002: uaz_2_MI_Uaz01_burnt
+    2300000: body 1
+    2300002: body 1 collider
+    2300004: body 2
+    2300006: body 2 collider
+    2300008: detail 1
+    2300010: detail 2
+    2300012: detail 3
+    2300014: detail 4
+    2300016: door 1
+    2300018: door 2
+    2300020: door 3
+    2300022: door 4
+    2300024: door 5
+    2300026: door 6
+    2300028: door back
+    2300030: glass end
+    2300032: glass front
+    2300034: glass l1
+    2300036: glass l2
+    2300038: glass l3
+    2300040: glass r1
+    2300042: glass r2
+    2300044: glass r3
+    2300046: mirror l
+    2300048: mirror r
+    2300050: wheel 1
+    2300052: wheel 2
+    2300054: wheel 3
+    2300056: wheel 4
+    2300058: wheel 5
+    2300060: wheel 6
+    2300062: wheel back
+    2300064: wheel metal
+    3300000: body 1
+    3300002: body 1 collider
+    3300004: body 2
+    3300006: body 2 collider
+    3300008: detail 1
+    3300010: detail 2
+    3300012: detail 3
+    3300014: detail 4
+    3300016: door 1
+    3300018: door 2
+    3300020: door 3
+    3300022: door 4
+    3300024: door 5
+    3300026: door 6
+    3300028: door back
+    3300030: glass end
+    3300032: glass front
+    3300034: glass l1
+    3300036: glass l2
+    3300038: glass l3
+    3300040: glass r1
+    3300042: glass r2
+    3300044: glass r3
+    3300046: mirror l
+    3300048: mirror r
+    3300050: wheel 1
+    3300052: wheel 2
+    3300054: wheel 3
+    3300056: wheel 4
+    3300058: wheel 5
+    3300060: wheel 6
+    3300062: wheel back
+    3300064: wheel metal
+    4300000: body 1
+    4300002: body 2
+    4300004: glass l3
+    4300006: wheel 2
+    4300008: wheel metal
+    4300010: detail 1
+    4300012: detail 2
+    4300014: door 1
+    4300016: door 2
+    4300018: wheel back
+    4300020: door back
+    4300022: wheel 6
+    4300024: detail 3
+    4300026: detail 4
+    4300028: wheel 1
+    4300030: door 3
+    4300032: door 4
+    4300034: door 5
+    4300036: door 6
+    4300038: wheel 3
+    4300040: wheel 4
+    4300042: wheel 5
+    4300044: glass front
+    4300046: glass end
+    4300048: glass r1
+    4300050: glass r2
+    4300052: glass r3
+    4300054: glass l1
+    4300056: glass l2
+    4300058: mirror l
+    4300060: mirror r
+    4300062: body 1 collider
+    4300064: body 2 collider
+  externalObjects: {}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 0
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

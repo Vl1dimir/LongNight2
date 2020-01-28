@@ -1,0 +1,199 @@
+fileFormatVersion: 2
+guid: 89b3348c27fa0194585f3e92c4c501fd
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: body
+    100002: body collider
+    100004: carcass
+    100006: carcass collider
+    100008: cover
+    100010: door back
+    100012: door L
+    100014: door R
+    100016: glassBack
+    100018: glassFront
+    100020: glassSide
+    100022: steerWheel
+    100024: //RootNode
+    100026: wheel 1
+    100028: wheel 2
+    100030: wheel 3
+    100032: wheel 4
+    100034: wheel 5
+    100036: wheel 6
+    100038: wheel 7
+    100040: wheel collider
+    100042: wheelLeft collider
+    100044: wheelRight collider
+    400000: body
+    400002: body collider
+    400004: carcass
+    400006: carcass collider
+    400008: cover
+    400010: door back
+    400012: door L
+    400014: door R
+    400016: glassBack
+    400018: glassFront
+    400020: glassSide
+    400022: steerWheel
+    400024: //RootNode
+    400026: wheel 1
+    400028: wheel 2
+    400030: wheel 3
+    400032: wheel 4
+    400034: wheel 5
+    400036: wheel 6
+    400038: wheel 7
+    400040: wheel collider
+    400042: wheelLeft collider
+    400044: wheelRight collider
+    2100000: ural_1_MI_Truck_Base
+    2300000: body
+    2300002: body collider
+    2300004: carcass
+    2300006: carcass collider
+    2300008: cover
+    2300010: door back
+    2300012: door L
+    2300014: door R
+    2300016: glassBack
+    2300018: glassFront
+    2300020: glassSide
+    2300022: steerWheel
+    2300024: wheel 1
+    2300026: wheel 2
+    2300028: wheel 3
+    2300030: wheel 4
+    2300032: wheel 5
+    2300034: wheel 6
+    2300036: wheel 7
+    2300038: wheel collider
+    2300040: wheelLeft collider
+    2300042: wheelRight collider
+    3300000: body
+    3300002: body collider
+    3300004: carcass
+    3300006: carcass collider
+    3300008: cover
+    3300010: door back
+    3300012: door L
+    3300014: door R
+    3300016: glassBack
+    3300018: glassFront
+    3300020: glassSide
+    3300022: steerWheel
+    3300024: wheel 1
+    3300026: wheel 2
+    3300028: wheel 3
+    3300030: wheel 4
+    3300032: wheel 5
+    3300034: wheel 6
+    3300036: wheel 7
+    3300038: wheel collider
+    3300040: wheelLeft collider
+    3300042: wheelRight collider
+    4300000: body
+    4300002: glassFront
+    4300004: wheel 7
+    4300006: carcass
+    4300008: door R
+    4300010: cover
+    4300012: door back
+    4300014: steerWheel
+    4300016: door L
+    4300018: wheel 1
+    4300020: wheel 2
+    4300022: wheel 3
+    4300024: wheel 4
+    4300026: wheel 5
+    4300028: wheel 6
+    4300030: glassBack
+    4300032: glassSide
+    4300034: body collider
+    4300036: carcass collider
+    4300038: wheelRight collider
+    4300040: wheelLeft collider
+    4300042: wheel collider
+  externalObjects: {}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 0
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

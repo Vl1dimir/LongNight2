@@ -14928,16 +14928,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: HEROPLAYER
       objectReference: {fileID: 0}
-    - target: {fileID: 5536123263531869842, guid: 9f256dcdfd91e854ab8e4a9f62248d1e,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5538228784727134836, guid: 9f256dcdfd91e854ab8e4a9f62248d1e,
-        type: 3}
-      propertyPath: m_CullingMask.m_Bits
-      value: 63287
-      objectReference: {fileID: 0}
     - target: {fileID: 5549562599561659310, guid: 9f256dcdfd91e854ab8e4a9f62248d1e,
         type: 3}
       propertyPath: m_GameManager

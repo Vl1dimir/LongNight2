@@ -14,18 +14,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Objectives:
   - shortName: 1
-    objectiveText: Move to East - to Chernobyl Zone
+    objectiveText: 'Shadow Broker message: grab your gear and go'
     completeCount: 0
     objectiveID: 0
   - shortName: 2
-    objectiveText: 'Beware of monsters... '
+    objectiveText: "Shadow Broker message: move to East - to Novazarkov Zone\nThere
+      is no direct route to the east. You will have to go through \nnot very pleasant
+      and simple places. Be careful and watchful."
     completeCount: 0
     objectiveID: 1
   - shortName: 3
-    objectiveText: Find a way out from room
+    objectiveText: 'Shadow Broker message: and beware of former local residents
+
+      They
+      are extremely unfriendly... Hehe...
+
+'
     completeCount: 0
     objectiveID: 2
   - shortName: 4
-    objectiveText: Find a proper key for the door
+    objectiveText: 'Shadow Broker message:'
     completeCount: 0
     objectiveID: 3

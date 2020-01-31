@@ -33,6 +33,13 @@ MonoBehaviour:
     completeCount: 0
     objectiveID: 2
   - shortName: 4
-    objectiveText: 'Shadow Broker message:'
+    objectiveText: "Shadow Broker message: Well done, you crossed\n the first border.
+      Ahead of the gloomy forest. I do \nnot envy those who go through it ... \nNot
+      everyone gets it."
     completeCount: 0
     objectiveID: 3
+  - shortName: 5
+    objectiveText: "Shadow Broker message: A wretched sight. Once\n the best minds
+      worked here. However, their mind\n led us to all this horror around.\r\n\r\n"
+    completeCount: 0
+    objectiveID: 4

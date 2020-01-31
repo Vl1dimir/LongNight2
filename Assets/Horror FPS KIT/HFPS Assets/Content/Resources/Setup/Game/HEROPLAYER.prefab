@@ -14114,8 +14114,8 @@ MonoBehaviour:
   lowHealth: 29
   maxRegenerateHealth: 15
   lowHealthSettings: 1
-  lowWalkSpeed: 2.2
-  lowRunSpeed: 7
+  lowWalkSpeed: 2
+  lowRunSpeed: 5
   regeneration: 1
   regenerationSpeed: 1
   timeWaitAfterDamage: 5
@@ -14125,7 +14125,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 6d34eb940fd31d348854171c4cb1ee4d, type: 3}
   - {fileID: 8300000, guid: 034f51ce2fa0a5d4ea0f3aa37131e771, type: 3}
   - {fileID: 8300000, guid: 161b326ef350ae145860c681e9910d17, type: 3}
-  Volume: 0.75
+  Volume: 0.35
   HealthColor: {r: 255, g: 255, b: 255, a: 1}
   AddHealthColor: {r: 0, g: 0.5, b: 0, a: 1}
   LowHealthColor: {r: 0.9, g: 0, b: 0, a: 1}
@@ -15185,7 +15185,7 @@ Camera:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5518785189126472194}
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 3
   m_BackGroundColor: {r: 0.9477612, g: 0.9477612, b: 0.9477612, a: 1}
@@ -15209,7 +15209,7 @@ Camera:
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 2560
+    m_Bits: 2048
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
@@ -15228,7 +15228,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5518785189126472194}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8b9a305e18de0c04dbd257a21cd47087, type: 3}
   m_Name: 
@@ -15245,7 +15245,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5518785189126472194}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 948f4100a11a5c24981795d21301da5c, type: 3}
   m_Name: 
@@ -15889,7 +15889,7 @@ MonoBehaviour:
     isFlesh: 0
   aSource: {fileID: 5599569251288071594}
   soundDraw: {fileID: 8300000, guid: 3cf6b25f8eedab1498277459db7f6406, type: 3}
-  soundFire: {fileID: 8300000, guid: 6e6bb658e50c1f24d9a94db52c70726a, type: 3}
+  soundFire: {fileID: 8300000, guid: 2b85bd62f15a31241a7860d00eac42db, type: 3}
   soundEmpty: {fileID: 0}
   switchModeSound: {fileID: 0}
   fireAnim: Glock18_Fire
@@ -16965,7 +16965,7 @@ Camera:
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 63287
+    m_Bits: 65335
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
@@ -18594,7 +18594,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 0.015
+  m_Volume: 0.25
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -18603,9 +18603,9 @@ AudioSource:
   Priority: 128
   DopplerLevel: 1
   MinDistance: 2
-  MaxDistance: 25
+  MaxDistance: 5
   Pan2D: 0
-  rolloffMode: 0
+  rolloffMode: 2
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
@@ -18613,23 +18613,50 @@ AudioSource:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 3
-      time: 0
+      time: 0.08
       value: 1
-      inSlope: 0
-      outSlope: 0
+      inSlope: -12.50498
+      outSlope: -12.50498
       tangentMode: 0
       weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.16
+      value: 0.5
+      inSlope: -3.126245
+      outSlope: -3.126245
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.32
+      value: 0.25
+      inSlope: -0.78156126
+      outSlope: -0.78156126
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.64
+      value: 0.08639526
+      inSlope: -0.41773185
+      outSlope: -0.41773185
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.2964581
     - serializedVersion: 3
       time: 1
       value: 0
-      inSlope: 0
-      outSlope: 0
+      inSlope: -0.0800319
+      outSlope: -0.0800319
       tangentMode: 0
       weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
+      inWeight: 0
+      outWeight: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4

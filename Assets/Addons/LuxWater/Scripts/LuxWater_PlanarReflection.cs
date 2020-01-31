@@ -55,6 +55,9 @@ namespace LuxWater {
 
         private RenderTexture m_reflectionMap;
 
+        [SerializeField]
+        private float reflectFar = 5;
+
         void OnEnable(){
         //  Make sure water is on layer "Water"
             gameObject.layer = LayerMask.NameToLayer ("Water");
@@ -89,6 +92,10 @@ namespace LuxWater {
                 go.AddComponent(typeof(Camera));
             }
             Camera reflectCamera = go.GetComponent<Camera>();
+
+
+
+            reflectCamera.farClipPlane = reflectFar;
             reflectCamera.backgroundColor = clearColor;
             reflectCamera.clearFlags = reflectSkybox ? CameraClearFlags.Skybox : CameraClearFlags.SolidColor;
             SetStandardCameraParameter(reflectCamera, reflectionMask);
@@ -102,6 +109,7 @@ namespace LuxWater {
             cam.cullingMask = mask & ~(1 << LayerMask.NameToLayer("Water"));
             cam.backgroundColor = Color.black;
             cam.enabled = false;
+            cam.farClipPlane = reflectFar;
         }
 
 
@@ -189,7 +197,7 @@ namespace LuxWater {
             reflectCamera.cullingMask = reflectionMask & ~(1 << LayerMask.NameToLayer("Water"));
 
             SaneCameraSettings(reflectCamera);
-
+            reflectCamera.farClipPlane = reflectFar;
             reflectCamera.backgroundColor = clearColor;
             reflectCamera.clearFlags = reflectSkybox ? CameraClearFlags.Skybox : CameraClearFlags.SolidColor;
             
@@ -273,6 +281,7 @@ namespace LuxWater {
 
         void SaneCameraSettings(Camera helperCam) {
             helperCam.depthTextureMode = DepthTextureMode.None;
+            helperCam.farClipPlane = reflectFar;
             helperCam.backgroundColor = Color.black;
             helperCam.clearFlags = CameraClearFlags.SolidColor;
             helperCam.renderingPath = RenderingPath.Forward;

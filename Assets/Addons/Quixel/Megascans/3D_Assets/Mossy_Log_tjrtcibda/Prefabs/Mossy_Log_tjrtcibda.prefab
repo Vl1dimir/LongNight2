@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1384101469399462885}
   - component: {fileID: 7029900747030188537}
   - component: {fileID: 8752618207027345074}
+  - component: {fileID: 423814499}
   m_Layer: 0
   m_Name: tjrtcibda_LOD5
   m_TagString: Untagged
@@ -79,6 +80,19 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &423814499
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1287469602315570709}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.46148705, y: 0.1, z: 0.1}
+  m_Center: {x: -0.005411081, y: 0.049039036, z: 0.0020119443}
 --- !u!1 &2706493727858154455
 GameObject:
   m_ObjectHideFlags: 0
@@ -327,7 +341,6 @@ GameObject:
   - component: {fileID: 1878875153833019796}
   - component: {fileID: 4661957490096574599}
   - component: {fileID: 1867786578411820479}
-  - component: {fileID: 5706957162029215238}
   m_Layer: 0
   m_Name: tjrtcibda_LOD0
   m_TagString: Untagged
@@ -396,20 +409,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &5706957162029215238
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5935595082923076967}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -1612580558226069258, guid: 0e7c9ebae3d7a024381d9486b119b9e5, type: 3}
 --- !u!1 &6464551954078633070
 GameObject:
   m_ObjectHideFlags: 0

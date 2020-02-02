@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: e66d729b6a1bd774681920422006da73
 ModelImporter:
-  serializedVersion: 26
+  serializedVersion: 19300
   internalIDToNameTable:
   - first:
       1: 100000
@@ -129,7 +129,7 @@ ModelImporter:
       name: Rock_Granite_rcCwC_mat
     second: {fileID: 2100000, guid: d9edb76ea2971f348ae474bca3de67d6, type: 2}
   materials:
-    importMaterials: 0
+    materialImportMode: 0
     materialName: 2
     materialSearch: 1
     materialLocation: 0
@@ -159,10 +159,10 @@ ModelImporter:
   meshes:
     lODScreenPercentages:
     - 0.25
-    - 0.125
-    - 0.0625
-    - 0.03125
-    - 0.01
+    - 0.18665054
+    - 0.13055268
+    - 0.09139457
+    - 0.048165414
     globalScale: 1
     meshCompression: 0
     addColliders: 0
@@ -198,7 +198,6 @@ ModelImporter:
     normalSmoothingSource: 0
   referencedClips: []
   importAnimation: 0
-  copyAvatar: 0
   humanDescription:
     serializedVersion: 3
     human: []
@@ -216,8 +215,10 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 0
   humanoidOversampling: 1
+  avatarSetup: 0
   additionalBone: 0
   userData: model_processed_v01
   assetBundleName: 

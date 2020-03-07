@@ -314,7 +314,7 @@ MonoBehaviour:
   randomPatrol: 1
   waypointPatrol: 1
   enableGizmos: 1
-  AttackDamage: {x: 9, y: 17}
+  AttackDamage: {x: 7, y: 12}
   stoppingDistance: 2
   changeStateDistance: 3
   seeDistance: 9

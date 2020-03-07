@@ -74,7 +74,7 @@ MonoBehaviour:
     m_Settings:
       focusDistance: 10
       aperture: 5.6
-      focalLength: 1
+      focalLength: 95.7
       useCameraFov: 0
       kernelSize: 2
   motionBlur:
@@ -88,8 +88,8 @@ MonoBehaviour:
     m_Settings:
       lowPercent: 49.000008
       highPercent: 99
-      minLuminance: -5
-      maxLuminance: 1
+      minLuminance: -4
+      maxLuminance: -5.5
       keyValue: 0.25
       dynamicKeyValue: 1
       adaptationType: 0
@@ -124,14 +124,14 @@ MonoBehaviour:
         postExposure: 1
         temperature: -4
         tint: 0
-        hueShift: 0
+        hueShift: -6
         saturation: 0.75
-        contrast: 1
+        contrast: 1.1
       channelMixer:
         red: {x: 1, y: 0, z: 0}
         green: {x: 0, y: 1, z: 0}
         blue: {x: 0, y: 0, z: 1}
-        currentEditingChannel: 0
+        currentEditingChannel: 2
       colorWheels:
         mode: 1
         log:
@@ -309,12 +309,12 @@ MonoBehaviour:
     m_Enabled: 1
     m_Settings:
       spectralTexture: {fileID: 0}
-      intensity: 0.175
+      intensity: 0.225
   grain:
     m_Enabled: 1
     m_Settings:
       colored: 0
-      intensity: 0.5
+      intensity: 0.25
       size: 0.3
       luminanceContribution: 0.5
   vignette:
@@ -323,7 +323,7 @@ MonoBehaviour:
       mode: 0
       color: {r: 0, g: 0, b: 0, a: 1}
       center: {x: 0.5, y: 0.5}
-      intensity: 0.555
+      intensity: 0.615
       smoothness: 1
       roundness: 0
       mask: {fileID: 0}

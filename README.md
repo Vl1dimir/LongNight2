@@ -1,2 +1,2 @@
-# LongNoght2
+# LongNight2
 Vovan the great creating cool and atmospheric sequel of legendary game 

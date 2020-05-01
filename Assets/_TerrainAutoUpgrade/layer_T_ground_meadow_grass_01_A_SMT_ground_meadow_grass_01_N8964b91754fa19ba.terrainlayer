@@ -7,15 +7,15 @@ TerrainLayer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: layer_T_ground_meadow_grass_01_A_SMT_ground_meadow_grass_01_N8964b91754fa19ba
-  m_DiffuseTexture: {fileID: 2800000, guid: e003e969c645eb7469595bf8140f0988, type: 3}
-  m_NormalMapTexture: {fileID: 2800000, guid: 5a2a364351bbb2245a45c344799805a7, type: 3}
+  m_DiffuseTexture: {fileID: 2800000, guid: 53897831254a2b24598b96094153e22a, type: 3}
+  m_NormalMapTexture: {fileID: 2800000, guid: 784d2defbdb418a4e89317eb022c106a, type: 3}
   m_MaskMapTexture: {fileID: 0}
   m_TileSize: {x: 4, y: 4}
   m_TileOffset: {x: 0, y: 0}
   m_Specular: {r: 0, g: 0, b: 0, a: 0}
-  m_Metallic: 0.34
+  m_Metallic: 0
   m_Smoothness: 0
-  m_NormalScale: 1
+  m_NormalScale: 1.5
   m_DiffuseRemapMin: {x: 0, y: 0, z: 0, w: 0}
   m_DiffuseRemapMax: {x: 1, y: 1, z: 1, w: 1}
   m_MaskMapRemapMin: {x: 0, y: 0, z: 0, w: 0}

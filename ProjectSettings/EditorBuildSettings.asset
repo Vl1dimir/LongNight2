@@ -29,4 +29,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Horror FPS KIT/HFPS Assets/Content/Scenes/Example/SavingExample/SavingScene02.unity
     guid: a7bfff2b296037b4eba8867601e57531
+  - enabled: 1
+    path: Assets/Novosibirsk.unity
+    guid: cbd2618a5df066e419c6eca874449b7d
   m_configObjects: {}

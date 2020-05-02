@@ -9962,8 +9962,8 @@ MonoBehaviour:
     m_Bits: 35840
   patrolPoints: []
   Waypoints: {fileID: 0}
-  NPCHead: {x: 0, y: 2, z: 0}
-  FOVAngle: 179
+  NPCHead: {x: 0, y: 1.8, z: 0}
+  FOVAngle: 110
   attackColliderHeight: 0.45
   smoothLookAt: 3
   smoothStopAgent: 2
@@ -9971,21 +9971,21 @@ MonoBehaviour:
   intelligence: 2
   patrolTime: {x: 6, y: 12}
   patrolPointTime: 8
-  walkSpeed: 5
-  runSpeed: 8.5
+  walkSpeed: 4.25
+  runSpeed: 6.25
   turnStateCutTime: 1
   walkInPlace: 0
   randomPatrol: 1
   waypointPatrol: 1
   enableGizmos: 1
-  AttackDamage: {x: 100, y: 125}
+  AttackDamage: {x: 50, y: 75}
   stoppingDistance: 2
   changeStateDistance: 1.75
-  seeDistance: 21
+  seeDistance: 19
   chaseDistance: 4
   chaseAttackDistance: 3
   attackDistance: 4
-  attractionDistance: 22
+  attractionDistance: 20
   patrolPointDetect: 2
   AttackSound:
   - {fileID: 8300000, guid: e61d74309dab78e41b2c205b03e6beca, type: 3}

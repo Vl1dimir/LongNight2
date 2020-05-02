@@ -47,6 +47,6 @@ MonoBehaviour:
   - InputName: Inventory
     DefaultKey: 9
   - InputName: LeanLeft
-    DefaultKey: 121
+    DefaultKey: 122
   - InputName: LeanRight
     DefaultKey: 120

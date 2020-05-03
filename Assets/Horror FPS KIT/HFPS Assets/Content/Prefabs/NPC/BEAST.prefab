@@ -9962,7 +9962,7 @@ MonoBehaviour:
     m_Bits: 35840
   patrolPoints: []
   Waypoints: {fileID: 0}
-  NPCHead: {x: 0, y: 1.8, z: 0}
+  NPCHead: {x: 0, y: 1.5, z: 0}
   FOVAngle: 110
   attackColliderHeight: 0.45
   smoothLookAt: 3

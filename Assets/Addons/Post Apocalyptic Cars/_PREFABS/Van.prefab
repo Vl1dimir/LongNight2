@@ -11,8 +11,7 @@ GameObject:
   - component: {fileID: 4158629106009174}
   - component: {fileID: 33609347257693088}
   - component: {fileID: 23774054862912556}
-  - component: {fileID: 64822076025311012}
-  - component: {fileID: 54356862252362344}
+  - component: {fileID: 3978335031434096965}
   m_Layer: 0
   m_Name: Van
   m_TagString: Untagged
@@ -81,7 +80,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &64822076025311012
+--- !u!64 &3978335031434096965
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -93,21 +92,5 @@ MeshCollider:
   m_Enabled: 1
   serializedVersion: 3
   m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300024, guid: 5bf0a93f044ff7b4fbe0d5a637bcbfa0, type: 3}
---- !u!54 &54356862252362344
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1103891167107686}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300022, guid: 5bf0a93f044ff7b4fbe0d5a637bcbfa0, type: 3}

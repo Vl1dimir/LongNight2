@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ec8407f538a64a48a3fa59fe60162ec, type: 3}
+  m_Name: Novosibirsk
+  m_EditorClassIdentifier: 
+  stackName: Novosibirsk
+  sceneDescription: Hometown of Proxor...
+  background: {fileID: 21300000, guid: ebd19f2c45b0a9a4f989b1ea0089c3d5, type: 3}
+  scenesAssets:
+  - {fileID: 102900000, guid: cbd2618a5df066e419c6eca874449b7d, type: 3}
+  scenes:
+  - Novosibirsk

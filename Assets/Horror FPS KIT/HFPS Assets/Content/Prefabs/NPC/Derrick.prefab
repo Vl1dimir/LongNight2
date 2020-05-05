@@ -2272,6 +2272,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _Animator: {fileID: 95231862444548554}
+  _Animator2: {fileID: 95231862444548554}
+  Sound: {fileID: 5463284868959473480}
   searchMask:
     serializedVersion: 2
     m_Bits: 1281

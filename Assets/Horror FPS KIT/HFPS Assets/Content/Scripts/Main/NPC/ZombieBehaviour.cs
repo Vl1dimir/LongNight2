@@ -28,6 +28,8 @@ public class ZombieBehaviour : MonoBehaviour, ISaveable
 
     [Header("Main Setup")]
     public Animator _Animator;
+    public Animator _Animator2;
+    public AudioSource Sound;
     public LayerMask searchMask;
     public LayerMask attractionMask;
     public PatrolPoint[] patrolPoints;
@@ -527,7 +529,9 @@ public class ZombieBehaviour : MonoBehaviour, ISaveable
         {
             isDead = true;
             _Animator.enabled = false;
+            _Animator2.enabled = false;
             _agent.isStopped = true;
+            Sound.enabled = false;
             GetComponent<CapsuleCollider>().enabled = false;
         }
         else

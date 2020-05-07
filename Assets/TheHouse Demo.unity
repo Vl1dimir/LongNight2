@@ -266,6 +266,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1053561807}
     m_Modifications:
+    - target: {fileID: 1513028315, guid: 020eb78efb1f78d43a366e9e74f17e63, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 1631528718906086, guid: 020eb78efb1f78d43a366e9e74f17e63, type: 3}
       propertyPath: m_Name
       value: Derrick_NPC (10)
@@ -695,6 +699,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_ConnectedAnchor.z
       value: -0.05437217
+      objectReference: {fileID: 0}
+    - target: {fileID: 8514993237417906931, guid: fdf604aafdd9767449a4ba1a8c026a2a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8515918637137140430, guid: fdf604aafdd9767449a4ba1a8c026a2a,
         type: 3}
@@ -1672,6 +1681,7 @@ GameObject:
   - component: {fileID: 59314469}
   - component: {fileID: 59314471}
   - component: {fileID: 59314470}
+  - component: {fileID: 59314472}
   m_Layer: 0
   m_Name: Terrain
   m_TagString: Grass
@@ -1737,6 +1747,18 @@ Terrain:
   m_GroupingID: 0
   m_RenderingLayerMask: 1
   m_AllowAutoConnect: 0
+--- !u!114 &59314472
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 59314468}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab01b6fec4b2844a195aec912e2f66b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &64478002
 GameObject:
   m_ObjectHideFlags: 0
@@ -3482,6 +3504,11 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4108724626438957704, guid: 9b140eddf432bc84090a9b1ea8328206,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4108724626871380533, guid: 9b140eddf432bc84090a9b1ea8328206,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3764,6 +3791,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1688364679}
     m_Modifications:
+    - target: {fileID: 4108724626438957704, guid: 9b140eddf432bc84090a9b1ea8328206,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4108724626871380533, guid: 9b140eddf432bc84090a9b1ea8328206,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4190,6 +4222,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_ConnectedAnchor.z
       value: -0.05441031
+      objectReference: {fileID: 0}
+    - target: {fileID: 8514993237417906931, guid: fdf604aafdd9767449a4ba1a8c026a2a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8515918637137140430, guid: fdf604aafdd9767449a4ba1a8c026a2a,
         type: 3}
@@ -6105,6 +6142,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1053561807}
     m_Modifications:
+    - target: {fileID: 1513028315, guid: 020eb78efb1f78d43a366e9e74f17e63, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 1631528718906086, guid: 020eb78efb1f78d43a366e9e74f17e63, type: 3}
       propertyPath: m_Name
       value: Derrick_NPC (8)
@@ -9171,7 +9212,7 @@ GameObject:
   - component: {fileID: 368085623}
   - component: {fileID: 368085622}
   - component: {fileID: 368085621}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Lightbeam_Normal (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11873,6 +11914,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1053561807}
     m_Modifications:
+    - target: {fileID: 8514993237417906931, guid: fdf604aafdd9767449a4ba1a8c026a2a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8515918637137140430, guid: fdf604aafdd9767449a4ba1a8c026a2a,
         type: 3}
       propertyPath: m_Name
@@ -13416,6 +13462,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1053561807}
     m_Modifications:
+    - target: {fileID: 1513028315, guid: 020eb78efb1f78d43a366e9e74f17e63, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 1631528718906086, guid: 020eb78efb1f78d43a366e9e74f17e63, type: 3}
       propertyPath: m_Name
       value: Derrick_NPC (14)
@@ -14137,6 +14187,11 @@ PrefabInstance:
       propertyPath: m_ConnectedAnchor.z
       value: -0.054389652
       objectReference: {fileID: 0}
+    - target: {fileID: 8514993237417906931, guid: fdf604aafdd9767449a4ba1a8c026a2a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8515918637137140430, guid: fdf604aafdd9767449a4ba1a8c026a2a,
         type: 3}
       propertyPath: m_Name
@@ -14241,6 +14296,10 @@ PrefabInstance:
       propertyPath: sky
       value: 
       objectReference: {fileID: 1670265396}
+    - target: {fileID: 1504254854, guid: 9f256dcdfd91e854ab8e4a9f62248d1e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5513268424531372704, guid: 9f256dcdfd91e854ab8e4a9f62248d1e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -14301,6 +14360,31 @@ PrefabInstance:
       propertyPath: m_Name
       value: HEROPLAYER
       objectReference: {fileID: 0}
+    - target: {fileID: 5518658823525307796, guid: 9f256dcdfd91e854ab8e4a9f62248d1e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5519000158689588564, guid: 9f256dcdfd91e854ab8e4a9f62248d1e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5520429423312087672, guid: 9f256dcdfd91e854ab8e4a9f62248d1e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.000009097159
+      objectReference: {fileID: 0}
+    - target: {fileID: 5520429423312087672, guid: 9f256dcdfd91e854ab8e4a9f62248d1e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.00000011920929
+      objectReference: {fileID: 0}
+    - target: {fileID: 5520429423312087672, guid: 9f256dcdfd91e854ab8e4a9f62248d1e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.000008583069
+      objectReference: {fileID: 0}
     - target: {fileID: 5538228784727134836, guid: 9f256dcdfd91e854ab8e4a9f62248d1e,
         type: 3}
       propertyPath: far clip plane
@@ -14326,6 +14410,133 @@ PrefabInstance:
 --- !u!1 &599161406 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5518658823525307796, guid: 9f256dcdfd91e854ab8e4a9f62248d1e,
+    type: 3}
+  m_PrefabInstance: {fileID: 599161405}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &599161407 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5519000158689588564, guid: 9f256dcdfd91e854ab8e4a9f62248d1e,
+    type: 3}
+  m_PrefabInstance: {fileID: 599161405}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &599161408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 599161407}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3646e1a2090b4cb69abab93707e342b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _sun: {fileID: 1670265397}
+  _enableWMAPI: 0
+  _forceForwardRenderingPath: 0
+  _debugSnow: 0
+  _deferredCameraEvent: 0
+  _showSnowInSceneView: 0
+  _forceSPSR: 0
+  _minimumAltitude: -6.3
+  _minimumAltitudeVegetationOffset: 0
+  _snowTint: {r: 1, g: 1, b: 1, a: 0.484}
+  _altitudeScatter: 10
+  _altitudeBlending: 0
+  _distanceOptimization: 0
+  _detailDistance: 100
+  _distanceSnowColor: {r: 0.7882353, g: 0.8235294, b: 0.99215686, a: 1}
+  _distanceIgnoreNormals: 0
+  _distanceIgnoreCoverage: 0
+  _showCoverageGizmo: 0
+  _smoothCoverage: 1
+  _coverageExtension: 1
+  _coverageResolution: 3
+  _groundCoverage: 0
+  _slopeThreshold: 0.49
+  _slopeSharpness: 1
+  _slopeNoise: 1
+  _distanceSlopeThreshold: 0.7
+  _coverageMask: 0
+  _coverageMaskTexture: {fileID: 0}
+  _coverageMaskWorldSize: {x: 2000, y: 0, z: 2000}
+  _coverageMaskWorldCenter: {x: 0, y: 0, z: 0}
+  _snowQuality: 30
+  _coverageUpdateMethod: 1
+  coverageDepthDebug: 0
+  _reliefAmount: 0.3
+  _occlusion: 1
+  _occlusionIntensity: 5
+  _glitterStrength: 0.75
+  _footprints: 0
+  _footprintsTexture: {fileID: 2800000, guid: f8375a98c165e4a499451f9b2ed39ca2, type: 3}
+  _footprintsAutoFPS: 1
+  _footprintsDuration: 60
+  _footprintsScale: 1
+  _footprintsObscurance: 0.05
+  _snowfall: 0
+  _snowfallIntensity: 0.1
+  _snowfallSpeed: 1
+  _snowfallDistance: 100
+  _snowfallUseIllumination: 0
+  _snowfallReceiveShadows: 0
+  _maxExposure: 0.55
+  _smoothness: 0.277
+  _snowAmount: 2
+  _enableHotKeys: 1
+  _cameraFrost: 1
+  _cameraFrostIntensity: 0.0075
+  _cameraFrostSpread: 1
+  _cameraFrostDistortion: 1
+  _allowBatchedMeshes: 0
+  _floatingPointNormalsBuffer: 1
+  _layerMask:
+    serializedVersion: 2
+    m_Bits: 4294967279
+  _excludedCastShadows: 1
+  _zenithalMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  _defaultExclusionLayer: 27
+  _terrainMarks: 1
+  _terrainMarksDuration: 180
+  _terrainMarksDefaultSize: 0.25
+  _terrainMarksAutoFPS: 0
+  _terrainMarksViewDistance: 200
+  _terrainMarksStepMaxDistance: 20
+  _terrainMarksRotationThreshold: 3
+  terrainMarksTextureSize: 2048
+  _updateSpeedTree: 0
+  _speedTreeRemoveLeaves: 0
+  _fixMaterials: 0
+  _opaqueCutout: 0
+  _fixTreeOpaque: 0
+  _billboardCoverage: 0.75
+  _grassCoverage: 0.75
+  _groundCheck: 0
+  _characterController: {fileID: 599161411}
+  _groundDistance: 1
+  _maskEditorEnabled: 0
+  _maskTextureResolution: 1024
+  _maskBrushMode: 1
+  _maskBrushWidth: 20
+  _maskBrushFuzziness: 0.5
+  _maskBrushOpacity: 0.965
+--- !u!114 &599161409
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 599161407}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f18a7ad8e37fa4e2297253d9ab6798c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!143 &599161411 stripped
+CharacterController:
+  m_CorrespondingSourceObject: {fileID: 5579403399743827312, guid: 9f256dcdfd91e854ab8e4a9f62248d1e,
     type: 3}
   m_PrefabInstance: {fileID: 599161405}
   m_PrefabAsset: {fileID: 0}
@@ -15480,6 +15691,11 @@ PrefabInstance:
       propertyPath: m_ConnectedAnchor.z
       value: -0.054375347
       objectReference: {fileID: 0}
+    - target: {fileID: 8514993237417906931, guid: fdf604aafdd9767449a4ba1a8c026a2a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8515918637137140430, guid: fdf604aafdd9767449a4ba1a8c026a2a,
         type: 3}
       propertyPath: m_Name
@@ -16096,6 +16312,11 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4108724626438957704, guid: 9b140eddf432bc84090a9b1ea8328206,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4108724626871380533, guid: 9b140eddf432bc84090a9b1ea8328206,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -16427,6 +16648,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_ConnectedAnchor.z
       value: -0.054378524
+      objectReference: {fileID: 0}
+    - target: {fileID: 8514993237417906931, guid: fdf604aafdd9767449a4ba1a8c026a2a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8515918637137140430, guid: fdf604aafdd9767449a4ba1a8c026a2a,
         type: 3}
@@ -17103,6 +17329,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1053561807}
     m_Modifications:
+    - target: {fileID: 1513028315, guid: 020eb78efb1f78d43a366e9e74f17e63, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 1631528718906086, guid: 020eb78efb1f78d43a366e9e74f17e63, type: 3}
       propertyPath: m_Name
       value: Derrick_NPC (15)
@@ -17944,6 +18174,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_ConnectedAnchor.z
       value: -0.054380115
+      objectReference: {fileID: 0}
+    - target: {fileID: 8514993237417906931, guid: fdf604aafdd9767449a4ba1a8c026a2a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8515918637137140430, guid: fdf604aafdd9767449a4ba1a8c026a2a,
         type: 3}
@@ -20251,6 +20486,11 @@ PrefabInstance:
       propertyPath: m_ConnectedAnchor.z
       value: -0.05437217
       objectReference: {fileID: 0}
+    - target: {fileID: 8514993237417906931, guid: fdf604aafdd9767449a4ba1a8c026a2a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8515918637137140430, guid: fdf604aafdd9767449a4ba1a8c026a2a,
         type: 3}
       propertyPath: m_Name
@@ -22050,6 +22290,11 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4108724626438957704, guid: 9b140eddf432bc84090a9b1ea8328206,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4108724626871380533, guid: 9b140eddf432bc84090a9b1ea8328206,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -22914,7 +23159,7 @@ GameObject:
   - component: {fileID: 1008417017}
   - component: {fileID: 1008417016}
   - component: {fileID: 1008417015}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Lightbeam_Normal (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24521,6 +24766,11 @@ PrefabInstance:
       propertyPath: m_ConnectedAnchor.z
       value: -0.05435946
       objectReference: {fileID: 0}
+    - target: {fileID: 8514993237417906931, guid: fdf604aafdd9767449a4ba1a8c026a2a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8515918637137140430, guid: fdf604aafdd9767449a4ba1a8c026a2a,
         type: 3}
       propertyPath: m_Name
@@ -25184,6 +25434,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1053561807}
     m_Modifications:
+    - target: {fileID: 1513028315, guid: 020eb78efb1f78d43a366e9e74f17e63, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 1631528718906086, guid: 020eb78efb1f78d43a366e9e74f17e63, type: 3}
       propertyPath: m_Name
       value: Derrick_NPC (11)
@@ -25418,6 +25672,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4108724626438957704, guid: 9b140eddf432bc84090a9b1ea8328206,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4108724626871380533, guid: 9b140eddf432bc84090a9b1ea8328206,
         type: 3}
@@ -26061,6 +26320,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1053561807}
     m_Modifications:
+    - target: {fileID: 1513028315, guid: 020eb78efb1f78d43a366e9e74f17e63, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 1631528718906086, guid: 020eb78efb1f78d43a366e9e74f17e63, type: 3}
       propertyPath: m_Name
       value: Derrick_NPC (7)
@@ -27625,7 +27888,7 @@ GameObject:
   - component: {fileID: 1189866258}
   - component: {fileID: 1189866257}
   - component: {fileID: 1189866256}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Lightbeam_Normal (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27964,6 +28227,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4108724626438957704, guid: 9b140eddf432bc84090a9b1ea8328206,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4108724626871380533, guid: 9b140eddf432bc84090a9b1ea8328206,
         type: 3}
@@ -28995,6 +29263,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1688364679}
     m_Modifications:
+    - target: {fileID: 4108724626438957704, guid: 9b140eddf432bc84090a9b1ea8328206,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4108724626871380533, guid: 9b140eddf432bc84090a9b1ea8328206,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -29428,6 +29701,11 @@ PrefabInstance:
       propertyPath: m_ConnectedAnchor.z
       value: -0.054399185
       objectReference: {fileID: 0}
+    - target: {fileID: 8514993237417906931, guid: fdf604aafdd9767449a4ba1a8c026a2a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8515918637137140430, guid: fdf604aafdd9767449a4ba1a8c026a2a,
         type: 3}
       propertyPath: m_Name
@@ -29550,6 +29828,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1053561807}
     m_Modifications:
+    - target: {fileID: 1513028315, guid: 020eb78efb1f78d43a366e9e74f17e63, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 1631528718906086, guid: 020eb78efb1f78d43a366e9e74f17e63, type: 3}
       propertyPath: m_Name
       value: Derrick_NPC (5)
@@ -31345,6 +31627,11 @@ PrefabInstance:
       propertyPath: m_ConnectedAnchor.z
       value: -0.05438488
       objectReference: {fileID: 0}
+    - target: {fileID: 8514993237417906931, guid: fdf604aafdd9767449a4ba1a8c026a2a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8515918637137140430, guid: fdf604aafdd9767449a4ba1a8c026a2a,
         type: 3}
       propertyPath: m_Name
@@ -31617,6 +31904,11 @@ PrefabInstance:
       propertyPath: m_ConnectedAnchor.z
       value: -0.05437853
       objectReference: {fileID: 0}
+    - target: {fileID: 8514993237417906931, guid: fdf604aafdd9767449a4ba1a8c026a2a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8515918637137140430, guid: fdf604aafdd9767449a4ba1a8c026a2a,
         type: 3}
       propertyPath: m_Name
@@ -31709,6 +32001,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1053561807}
     m_Modifications:
+    - target: {fileID: 1513028315, guid: 020eb78efb1f78d43a366e9e74f17e63, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 1631528718906086, guid: 020eb78efb1f78d43a366e9e74f17e63, type: 3}
       propertyPath: m_Name
       value: Derrick_NPC (6)
@@ -33304,6 +33600,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1053561807}
     m_Modifications:
+    - target: {fileID: 1513028315, guid: 020eb78efb1f78d43a366e9e74f17e63, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 1631528718906086, guid: 020eb78efb1f78d43a366e9e74f17e63, type: 3}
       propertyPath: m_Name
       value: Derrick_NPC (3)
@@ -33613,6 +33913,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4108724626438957704, guid: 9b140eddf432bc84090a9b1ea8328206,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4108724626871380533, guid: 9b140eddf432bc84090a9b1ea8328206,
         type: 3}
@@ -37355,6 +37660,11 @@ PrefabInstance:
       propertyPath: m_ConnectedAnchor.z
       value: -0.05435946
       objectReference: {fileID: 0}
+    - target: {fileID: 8514993237417906931, guid: fdf604aafdd9767449a4ba1a8c026a2a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8515918637137140430, guid: fdf604aafdd9767449a4ba1a8c026a2a,
         type: 3}
       propertyPath: m_Name
@@ -37622,6 +37932,11 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4108724626438957704, guid: 9b140eddf432bc84090a9b1ea8328206,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4108724626871380533, guid: 9b140eddf432bc84090a9b1ea8328206,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -37850,6 +38165,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1053561807}
     m_Modifications:
+    - target: {fileID: 1513028315, guid: 020eb78efb1f78d43a366e9e74f17e63, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 1631528718906086, guid: 020eb78efb1f78d43a366e9e74f17e63, type: 3}
       propertyPath: m_Name
       value: Derrick_NPC (9)
@@ -38172,6 +38491,11 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4108724626438957704, guid: 9b140eddf432bc84090a9b1ea8328206,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4108724626871380533, guid: 9b140eddf432bc84090a9b1ea8328206,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -38280,6 +38604,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1053561807}
     m_Modifications:
+    - target: {fileID: 1513028315, guid: 020eb78efb1f78d43a366e9e74f17e63, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 1631528718906086, guid: 020eb78efb1f78d43a366e9e74f17e63, type: 3}
       propertyPath: m_Name
       value: Derrick_NPC
@@ -38496,6 +38824,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4108724626438957704, guid: 9b140eddf432bc84090a9b1ea8328206,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4108724626871380533, guid: 9b140eddf432bc84090a9b1ea8328206,
         type: 3}
@@ -38727,6 +39060,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1688364679}
     m_Modifications:
+    - target: {fileID: 4108724626438957704, guid: 9b140eddf432bc84090a9b1ea8328206,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4108724626871380533, guid: 9b140eddf432bc84090a9b1ea8328206,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -39804,6 +40142,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4108724626438957704, guid: 9b140eddf432bc84090a9b1ea8328206,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4108724626871380533, guid: 9b140eddf432bc84090a9b1ea8328206,
         type: 3}
@@ -41071,6 +41414,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3096e00ab1b90d4cbf773a7c8bfa5a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1670265397 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100012, guid: b2498b078e1b54bd68239c9a29c28a81,
+    type: 3}
+  m_PrefabInstance: {fileID: 1670265394}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1677458572
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -43132,6 +43481,11 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4108724626438957704, guid: 9b140eddf432bc84090a9b1ea8328206,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4108724626871380533, guid: 9b140eddf432bc84090a9b1ea8328206,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -43275,6 +43629,11 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4108724626438957704, guid: 9b140eddf432bc84090a9b1ea8328206,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4108724626871380533, guid: 9b140eddf432bc84090a9b1ea8328206,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -43375,6 +43734,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4108724626438957704, guid: 9b140eddf432bc84090a9b1ea8328206,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4108724626871380533, guid: 9b140eddf432bc84090a9b1ea8328206,
         type: 3}
@@ -43786,6 +44150,11 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4108724626438957704, guid: 9b140eddf432bc84090a9b1ea8328206,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4108724626871380533, guid: 9b140eddf432bc84090a9b1ea8328206,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -44072,6 +44441,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4108724626438957704, guid: 9b140eddf432bc84090a9b1ea8328206,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4108724626871380533, guid: 9b140eddf432bc84090a9b1ea8328206,
         type: 3}
@@ -45887,6 +46261,11 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4108724626438957704, guid: 9b140eddf432bc84090a9b1ea8328206,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4108724626871380533, guid: 9b140eddf432bc84090a9b1ea8328206,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -46145,6 +46524,11 @@ PrefabInstance:
       propertyPath: m_ConnectedAnchor.z
       value: -0.05438488
       objectReference: {fileID: 0}
+    - target: {fileID: 8514993237417906931, guid: fdf604aafdd9767449a4ba1a8c026a2a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8515918637137140430, guid: fdf604aafdd9767449a4ba1a8c026a2a,
         type: 3}
       propertyPath: m_Name
@@ -46372,6 +46756,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1053561807}
     m_Modifications:
+    - target: {fileID: 1513028315, guid: 020eb78efb1f78d43a366e9e74f17e63, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 1631528718906086, guid: 020eb78efb1f78d43a366e9e74f17e63, type: 3}
       propertyPath: m_Name
       value: Derrick_NPC (1)
@@ -48442,6 +48830,11 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4108724626438957704, guid: 9b140eddf432bc84090a9b1ea8328206,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4108724626871380533, guid: 9b140eddf432bc84090a9b1ea8328206,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -48629,6 +49022,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4108724626438957704, guid: 9b140eddf432bc84090a9b1ea8328206,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4108724626871380533, guid: 9b140eddf432bc84090a9b1ea8328206,
         type: 3}
@@ -48945,6 +49343,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4108724626438957704, guid: 9b140eddf432bc84090a9b1ea8328206,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4108724626871380533, guid: 9b140eddf432bc84090a9b1ea8328206,
         type: 3}
@@ -50737,6 +51140,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_ConnectedAnchor.z
       value: -0.05438488
+      objectReference: {fileID: 0}
+    - target: {fileID: 8514993237417906931, guid: fdf604aafdd9767449a4ba1a8c026a2a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8515918637137140430, guid: fdf604aafdd9767449a4ba1a8c026a2a,
         type: 3}
@@ -56301,6 +56709,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_ConnectedAnchor.z
       value: -0.05438488
+      objectReference: {fileID: 0}
+    - target: {fileID: 8514993237417906931, guid: fdf604aafdd9767449a4ba1a8c026a2a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8515918637137140430, guid: fdf604aafdd9767449a4ba1a8c026a2a,
         type: 3}

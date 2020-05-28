@@ -59,7 +59,7 @@ Material:
     - _DeepFoamBlur: 0
     - _DeepFoamCoverage: 1
     - _DeepFoamTiling: 0.637
-    - _Density: 0.63
+    - _Density: 0.66
     - _DensityDepth: 0.01
     - _DepthAtten: 2.12
     - _DetailDistance: 600
@@ -88,7 +88,7 @@ Material:
     - _GerstnerNormalIntensity: 0.35
     - _GerstnerPlanarNormalIntensity: 1
     - _GerstnerVertexIntensity: 0.2
-    - _Glossiness: 0.95
+    - _Glossiness: 0
     - _HeightBasedScatteringMax: 2
     - _HeightBasedScatteringPower: 2
     - _Help: 0
